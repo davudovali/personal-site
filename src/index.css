@@ -1,6 +1,22 @@
+@font-face {
+  font-family: "Palanquin-Light";
+  src: url('./Palanquin/Palanquin-Light.ttf')
+}
+@font-face {
+  font-family: "Palanquin-Thin";
+  src: url('./Palanquin/Palanquin-Thin.ttf')
+}
+@font-face {
+  font-family: "Palanquin-Bold";
+  src: url('./Palanquin/Palanquin-Bold.ttf')
+}
+@font-face {
+  font-family: "Palanquin-Regular";
+  src: url('./Palanquin/Palanquin-Regular.ttf')
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: Palanquin-Thin, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
