@@ -1,0 +1,58 @@
+.fancy_button {
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  padding: 3px 0 0px 0;
+  border-radius: 0.125rem;
+  &:hover {
+    .fancy_button_content {
+      transform: translateY(-3px);
+    }
+  }
+
+  .fancy_button_shadows {
+    box-shadow: 0px 0px 0px 1px red inset, 0px 0px 0px 2px green inset, 0px 0px 0px 3px blue inset;
+    border-radius: 0.125rem;
+  }
+
+  .fancy_button_content {
+    padding: 0.25rem 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.73);
+    transform: translateY(0px);
+    transition: 100ms ease-in-out;
+    box-shadow: none;
+    box-sizing: border-box;
+    background-color: white;
+    &.x1 {
+      font-size: 0.875rem;
+      border-radius: 0.125rem;
+    }
+  }
+
+  .fancy_button_left, .fancy_button_center,.fancy_button_right {
+    position: absolute;
+    height: 100%;
+    width: 33%;
+    left: 0;
+    z-index: 1;
+  }
+
+  .fancy_button_center {
+    left: 33%;
+    width: 34%;
+    &:active ~ .fancy_button_shadows > .fancy_button_content {
+      transform: translateY(3px);
+    }
+  }
+
+  .fancy_button_right {
+    left: initial;
+    right: 0;
+    &:active ~ .fancy_button_content {
+      transform: translateY(3px) translateX(10%) rotateY(10deg);
+    }
+  }
+}
