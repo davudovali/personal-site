@@ -1,18 +1,36 @@
-import { NAME_SEARCH } from '../../service/nameSearch'
-import { INDICATOR_SHORT_ID_NAME_MAP } from '../../service/indicatorIdNameMap'
-import { useState, useCallback, ChangeEvent, useRef } from 'react'
+import { NAME_SEARCH } from '../../service/maps/nameSearch'
+import { INDICATOR_SHORT_ID_NAME_MAP } from '../../service/maps/indicatorIdNameMap'
+import { INDICATOR_SHORT_ID_ID_MAP } from '../../service/maps/indicatorShortIdIdMap'
+import { useState, useCallback, ChangeEvent, useRef, useEffect } from 'react'
 
-export const IndicatorSelector = () => {
+type CountryVolumeMapType = {
+    [key: number]: { countriesNumber: number; countries: string[] }
+}
+export const IndicatorSelector = ({
+    onChange,
+}: {
+    onChange: (value: string[]) => void
+}) => {
     const callbackRef = useRef<number>()
     const [choosenIndicators, setChoosenIndicators] = useState<number[]>([])
     const [results, setResults] = useState<number[]>([])
+    const [countriesVolume, setCountriesVolume] =
+        useState<CountryVolumeMapType>([])
+
+    useEffect(() => {
+        onChange(
+            choosenIndicators.map(
+                (indicatorId) => INDICATOR_SHORT_ID_ID_MAP[indicatorId]
+            )
+        )
+    }, [choosenIndicators])
 
     const onChangeInput = useCallback(
         (event: ChangeEvent<HTMLInputElement>) => {
             const value = event.target.value.toLowerCase().trim()
             clearTimeout(callbackRef.current)
             // @ts-ignore
-            callbackRef.current = setTimeout(() => {
+            callbackRef.current = setTimeout(async () => {
                 if (!value) setResults([])
                 const parts = value.split(' ')
 
@@ -41,6 +59,34 @@ export const IndicatorSelector = () => {
                     } else if (value === mostFitIds.value) {
                         mostFitIds.ids.push(id)
                     }
+                })
+
+                const countriesVolumePerIndicator: CountryVolumeMapType = {}
+
+                await Promise.all(
+                    mostFitIds.ids.map(async (id: number) => {
+                        try {
+                            const request = await fetch(
+                                process.env.PUBLIC_URL +
+                                    `/indicatorsCountries/${INDICATOR_SHORT_ID_ID_MAP[id]}.json`,
+                                {
+                                    headers: {
+                                        'Content-Type': 'application/json',
+                                        Accept: 'application/json',
+                                    },
+                                }
+                            )
+                            const result = JSON.parse(await request.text())
+                            countriesVolumePerIndicator[id] = result
+                        } catch (_) {}
+                    })
+                )
+                mostFitIds.ids.sort((a: number, b: number) => {
+                    const aValue =
+                        countriesVolumePerIndicator[a].countriesNumber
+                    const bValue =
+                        countriesVolumePerIndicator[b].countriesNumber
+                    return aValue - bValue
                 })
 
                 setResults(mostFitIds.ids.map((id: string) => Number(id)))

@@ -1,13 +1,17 @@
 import { useState, useCallback, SyntheticEvent } from 'react'
-import { NAMES, NAME_TO_ISO2 } from '../../service/countriesList'
+import { NAMES, NAME_TO_ISO2 } from '../../service/maps/countriesList'
 
-export const CountrySelector = () => {
-    const [choosenCountries, setChoosenCountries] = useState<string[]>([])
-
+export const CountrySelector = ({
+    onChange,
+    choosenCountries,
+}: {
+    onChange: (value: string[]) => void
+    choosenCountries: string[]
+}) => {
     const onSelect = useCallback(
         (event: SyntheticEvent<HTMLSelectElement, Event>) => {
             //@ts-ignore
-            setChoosenCountries((oldValue) => [...oldValue, event.target.value])
+            onChange([...choosenCountries, event.target.value])
         },
         []
     )
@@ -23,11 +27,7 @@ export const CountrySelector = () => {
             </select>
             {choosenCountries.map((country) => (
                 <button
-                    onClick={() =>
-                        setChoosenCountries((oldValue) =>
-                            [...oldValue].filter((x) => x !== country)
-                        )
-                    }
+                    onClick={() => onChange([...choosenCountries, country])}
                 >
                     {country}
                 </button>

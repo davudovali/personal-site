@@ -52,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "got": "^7.1.0",
     "sass": "^1.49.9"
   }
 }
