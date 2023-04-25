@@ -22,11 +22,14 @@ export const CountrySelector = ({
                 {NAMES.filter(
                     (countryName) => !choosenCountries.includes(countryName)
                 ).map((name) => (
-                    <option value={name}>{name}</option>
+                    <option key={name} value={name}>
+                        {name}
+                    </option>
                 ))}
             </select>
             {choosenCountries.map((country) => (
                 <button
+                    key={country}
                     onClick={() => onChange([...choosenCountries, country])}
                 >
                     {country}

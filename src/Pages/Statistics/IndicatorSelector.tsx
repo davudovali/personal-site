@@ -81,19 +81,27 @@ export const IndicatorSelector = ({
                         } catch (_) {}
                     })
                 )
+                mostFitIds.ids = mostFitIds.ids.filter((id: number) =>
+                    Boolean(countriesVolumePerIndicator[id])
+                )
                 mostFitIds.ids.sort((a: number, b: number) => {
                     const aValue =
                         countriesVolumePerIndicator[a].countriesNumber
                     const bValue =
                         countriesVolumePerIndicator[b].countriesNumber
-                    return aValue - bValue
+                    return bValue - aValue
                 })
 
+                mostFitIds.ids = mostFitIds.ids.slice(0, 10)
+
+                setCountriesVolume(countriesVolumePerIndicator)
                 setResults(mostFitIds.ids.map((id: string) => Number(id)))
             }, 1000)
         },
         []
     )
+
+    console.log(countriesVolume, results)
 
     return (
         <div>
@@ -116,7 +124,9 @@ export const IndicatorSelector = ({
                                 ])
                             }}
                         >
-                            {INDICATOR_SHORT_ID_NAME_MAP[Number(result)]}
+                            {INDICATOR_SHORT_ID_NAME_MAP[result]}
+                            countries:{' '}
+                            {countriesVolume[result]?.countriesNumber}
                             <br />
                         </button>
                     ))}
