@@ -1,10 +1,10 @@
 import React from 'react'
-import {} from 'react-router'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Resume from './Pages/Resume/Resume'
 import Statistics from './Pages/Statistics/Statistics'
 
 function App() {
+    console.log('check github')
     return (
         <BrowserRouter>
             <Routes>
