@@ -1,0 +1,84 @@
+.container {
+  padding: 0.5rem;
+}
+
+.label {
+  padding: 0.25rem;
+  text-align: center;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+  transition: 500ms ease-in-out;
+  &:hover {
+    font-weight: 900;
+  }
+}
+
+.wrapper {
+  padding: 0;
+  border: 0;
+  height: auto;
+
+}
+
+.choosenIndicator {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: white;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  & > span {
+    max-width: calc(100% - 2rem);
+    display: inline-block;
+  }
+
+  button {
+    color: white;
+    border: 1px solid white;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+}
+
+.indicatorToChose {
+  margin-top: 5px;
+  text-align: left;
+  cursor: pointer;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: white !important;
+}
+
+.input, .select {
+  margin-bottom: 8px;
+  background: rgba(0,0,0, 0.2);
+  border: none;
+  border-radius: 2px;
+  height: 1.5rem;
+  padding: 4px;
+
+  font-size: 1.25rem;
+  color: white;
+  &:focus {
+    border: none;
+    outline-color: rgba(255,255,255, 0.2);
+    outline-width: 1px;
+    outline-style: dot-dot-dash;
+  }
+}
+.select {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  min-height: 2.5rem;
+  max-width: 100%;
+  flex-shrink: 0;
+}

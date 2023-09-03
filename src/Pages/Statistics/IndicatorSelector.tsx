@@ -1,29 +1,34 @@
 import { NAME_SEARCH } from '../../service/maps/nameSearch'
 import { INDICATOR_SHORT_ID_NAME_MAP } from '../../service/maps/indicatorIdNameMap'
 import { INDICATOR_SHORT_ID_ID_MAP } from '../../service/maps/indicatorShortIdIdMap'
-import { useState, useCallback, ChangeEvent, useRef, useEffect } from 'react'
+import React, {
+    useState,
+    useCallback,
+    ChangeEvent,
+    useRef,
+    Fragment,
+} from 'react'
+import FocusPopupContainer from './FocusPopupContainer'
+import styles from './IndicatorSelector.module.scss'
 
 type CountryVolumeMapType = {
     [key: number]: { countriesNumber: number; countries: string[] }
 }
 export const IndicatorSelector = ({
-    onChange,
+    setChosenIndicators,
+    chosenIndicators,
 }: {
-    onChange: (value: string[]) => void
+    chosenIndicators: number[]
+    setChosenIndicators: (
+        value: number[] | ((prevState: number[]) => number[])
+    ) => void
 }) => {
     const callbackRef = useRef<number>()
-    const [choosenIndicators, setChoosenIndicators] = useState<number[]>([])
+
     const [results, setResults] = useState<number[]>([])
+
     const [countriesVolume, setCountriesVolume] =
         useState<CountryVolumeMapType>([])
-
-    useEffect(() => {
-        onChange(
-            choosenIndicators.map(
-                (indicatorId) => INDICATOR_SHORT_ID_ID_MAP[indicatorId]
-            )
-        )
-    }, [choosenIndicators])
 
     const onChangeInput = useCallback(
         (event: ChangeEvent<HTMLInputElement>) => {
@@ -50,7 +55,9 @@ export const IndicatorSelector = ({
                             }
                         })
                     })
+
                 let mostFitIds: any = { value: 0, ids: [] }
+
                 Object.keys(idIntersections).forEach((id) => {
                     const value = idIntersections[Number(id)]
                     if (value > mostFitIds.value) {
@@ -101,36 +108,70 @@ export const IndicatorSelector = ({
         []
     )
 
-    console.log(countriesVolume, results)
-
     return (
-        <div>
-            <input type="text" onChange={onChangeInput} />
-            <div>
-                {choosenIndicators.map((indicator: number) => (
-                    <span>
-                        {INDICATOR_SHORT_ID_NAME_MAP[indicator]}
-                        <br />
-                    </span>
-                ))}
-                {results
-                    .filter((id) => !choosenIndicators.includes(id))
-                    .map((result) => (
-                        <button
-                            onClick={() => {
-                                setChoosenIndicators((prevState) => [
-                                    ...prevState,
-                                    Number(result),
-                                ])
-                            }}
+        <fieldset className={styles.wrapper}>
+            <label htmlFor="indicatorInput" className={styles.label}>
+                INDICATORS
+            </label>
+            <FocusPopupContainer className={styles.container}>
+                <input
+                    className={styles.input}
+                    type="text"
+                    id="indicatorInput"
+                    onChange={onChangeInput}
+                />
+                <div>
+                    {chosenIndicators.map((indicator: number) => (
+                        <span
+                            className={styles.choosenIndicator}
+                            key={indicator}
                         >
-                            {INDICATOR_SHORT_ID_NAME_MAP[result]}
-                            countries:{' '}
-                            {countriesVolume[result]?.countriesNumber}
-                            <br />
-                        </button>
+                            <span>
+                                {INDICATOR_SHORT_ID_NAME_MAP[indicator]}
+                            </span>
+                            <button
+                                onClick={() =>
+                                    setChosenIndicators(
+                                        chosenIndicators.filter(
+                                            (chosenIndicator) =>
+                                                chosenIndicator !== indicator
+                                        )
+                                    )
+                                }
+                            >
+                                X
+                            </button>
+                        </span>
                     ))}
-            </div>
-        </div>
+
+                    {results
+                        .filter((id) => !chosenIndicators.includes(id))
+                        .map((result) => (
+                            <>
+                                <button
+                                    className={styles.indicatorToChose}
+                                    key={result}
+                                    onClick={() =>
+                                        setChosenIndicators((prevState) => [
+                                            ...prevState,
+                                            Number(result),
+                                        ])
+                                    }
+                                >
+                                    {INDICATOR_SHORT_ID_NAME_MAP[result]}
+                                    countries:{' '}
+                                    <b>
+                                        {
+                                            countriesVolume[result]
+                                                ?.countriesNumber
+                                        }
+                                    </b>
+                                </button>
+                                <br />
+                            </>
+                        ))}
+                </div>
+            </FocusPopupContainer>
+        </fieldset>
     )
 }

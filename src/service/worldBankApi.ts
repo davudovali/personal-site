@@ -5,9 +5,13 @@ const DOMAIN = 'https://api.worldbank.org/v2'
 export async function makeRequest({
     countries: countriesNames,
     indicator,
+    startYear,
+    endYear,
 }: {
     countries: string[]
     indicator: string
+    startYear: number
+    endYear: number
 }) {
     const countries = countriesNames.map(
         //@ts-ignore
@@ -17,9 +21,9 @@ export async function makeRequest({
         const country =
             countries.length > 1 ? countries.join(';') : countries[0]
         const result = await fetch(
-            `${DOMAIN}/country/${country}/indicator/${indicator}?format=json&date=1930:2023`
+            `${DOMAIN}/country/${country}/indicator/${indicator}?format=json&date=${startYear}:${endYear}&per_page=30000`
         )
-        return result
+        return result.json()
     } catch (e) {
         return e
     }
