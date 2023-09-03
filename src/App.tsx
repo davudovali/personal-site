@@ -4,7 +4,6 @@ import Resume from './Pages/Resume/Resume'
 import Statistics from './Pages/Statistics/Statistics'
 
 function App() {
-    console.log('check github')
     return (
         <BrowserRouter>
             <Routes>
