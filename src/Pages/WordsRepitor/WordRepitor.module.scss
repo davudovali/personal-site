@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 2rem;
+  height: 100vh;
+}
+
+.container.correct {
+  background: green;
+}
+
+.container.incorrect * ,
+.container.correct * {
+  color: white !important;
+}
+
+.container.incorrect .button.rightAnswer {
+  background: green;
+}
+
+.container.incorrect {
+  background: red;
+}
+
+.wordContainer {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  word-break: break-word;
+}
+
+.buttonsContainer {
+  font-size: .5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 3rem;
+}
+
+.button {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 1.5rem;
+  border: 1px solid black;
+}
+
+.wordContainer span {
+  font-weight: 900;
+}
+
+@media (max-width: 700px) {
+  .container {
+    justify-content: flex-end;
+  }
+  .wordContainer {
+    height: calc(100vh - 3rem);
+    justify-content: center;
+    align-items: center;
+  }
+  .wordContainer span {
+    display: block;
+    height: 4rem;
+  }
+  .buttonsContainer {
+    height: 3rem;
+    justify-content: space-around;
+    padding: 2rem;
+  }
+}
