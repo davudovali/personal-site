@@ -15,7 +15,7 @@ const ADD_TIME_MAP: {
         number: number
     }
 } = {
-    [REPEAT_STATUS.HOUR]: { type: 'day', number: 1 },
+    [REPEAT_STATUS.HOUR]: { type: 'hour', number: 1 },
     [REPEAT_STATUS.DAY]: { type: 'day', number: 2 },
     [REPEAT_STATUS.TWO_DAYS]: { type: 'week', number: 1 },
     [REPEAT_STATUS.WEEK]: { type: 'week', number: 2 },
@@ -23,11 +23,18 @@ const ADD_TIME_MAP: {
 }
 
 export default class RepitorController {
+    storageKey: string
+    constructor(storageKey: string) {
+        this.storageKey = storageKey
+    }
+
     currentList: WordInfo[] = []
     word?: WordInfo
 
     getInitialList = () => {
-        const { list, learned } = LocalStorageRepitorController.getWordsDB()
+        const { list, learned } = LocalStorageRepitorController.getWordsDB(
+            this.storageKey
+        )
         const currentDate = new Date().valueOf()
 
         let listToLearn: WordInfo[] = Object.values(list).reduce(
@@ -63,7 +70,9 @@ export default class RepitorController {
     }
 
     getTheStartId = () => {
-        const { list, learned } = LocalStorageRepitorController.getWordsDB()
+        const { list, learned } = LocalStorageRepitorController.getWordsDB(
+            this.storageKey
+        )
         const biggestIdList = Number(Object.keys(list).pop())
         const biggestIdLearned = Number(Object.keys(learned).pop())
         if (!biggestIdLearned && biggestIdList) return biggestIdList
@@ -87,7 +96,9 @@ export default class RepitorController {
         word: WordInfo
         result: RepeatResultEnum
     }) => {
-        const wordsDB = LocalStorageRepitorController.getWordsDB()
+        const wordsDB = LocalStorageRepitorController.getWordsDB(
+            this.storageKey
+        )
         if (result === RepeatResultEnum.POSITIVE) {
             switch (word.repeatStatus) {
                 case REPEAT_STATUS.MONTH:
@@ -112,6 +123,6 @@ export default class RepitorController {
             this.currentList.push(word)
             return
         }
-        LocalStorageRepitorController.saveWordsDB(wordsDB)
+        LocalStorageRepitorController.saveWordsDB(this.storageKey, wordsDB)
     }
 }

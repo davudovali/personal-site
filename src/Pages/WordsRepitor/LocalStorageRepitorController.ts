@@ -11,11 +11,13 @@ const DEFAULT_WORDS_DB: WordsDBInterface = {
 }
 
 const LocalStorageRepitorController = {
-    getWordsDB: (): WordsDBInterface => {
+    getWordsDB: (key: string): WordsDBInterface => {
         try {
             return (
                 JSON.parse(
-                    localStorage.getItem(WORDS_REPITOR_STORAGE_KEY) as string
+                    localStorage.getItem(
+                        WORDS_REPITOR_STORAGE_KEY + key
+                    ) as string
                 ) || DEFAULT_WORDS_DB
             )
         } catch (e) {
@@ -23,8 +25,11 @@ const LocalStorageRepitorController = {
         }
     },
 
-    saveWordsDB: (wordsDB: WordsDBInterface) => {
-        localStorage.setItem(WORDS_REPITOR_STORAGE_KEY, JSON.stringify(wordsDB))
+    saveWordsDB: (key: string, wordsDB: WordsDBInterface) => {
+        localStorage.setItem(
+            WORDS_REPITOR_STORAGE_KEY + key,
+            JSON.stringify(wordsDB)
+        )
     },
 }
 

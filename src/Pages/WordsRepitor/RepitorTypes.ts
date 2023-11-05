@@ -30,7 +30,7 @@ export const REPEAT_STATUS_PREVIOUS = {
 }
 
 export enum LevelEnum {
-    A1_DUOLINGO = 'a1_duolingo',
+    A1 = 'a1',
 }
 
 export enum ArticleEnum {
@@ -52,7 +52,7 @@ export type NounWordType = {
     translate: string
 }
 
-type VerbWordType = {
+export type VerbWordType = {
     text: string
     type: WordGrammarType.VERB
     level: LevelEnum
