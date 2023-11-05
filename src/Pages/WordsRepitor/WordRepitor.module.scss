@@ -4,8 +4,12 @@
   display: grid;
   grid-template-columns: 100vw;
   grid-template-rows: 40px calc(100vh - 40px - 40px);
+  grid-template-rows: 40px calc(100svh - 40px - 40px);
+  max-height: 100vh;
   min-height: 100vh;
-  min-height: -webkit-fill-available;
+  max-height: 100svh;
+  min-height: 100svh;
+  position: relative;
 }
 
 .screensButton {
