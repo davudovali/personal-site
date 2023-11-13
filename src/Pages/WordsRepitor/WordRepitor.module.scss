@@ -12,6 +12,14 @@
   position: relative;
 }
 
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .screensButton {
   margin: auto auto;
   height: 100%;

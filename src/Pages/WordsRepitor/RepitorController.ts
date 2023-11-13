@@ -28,6 +28,10 @@ export default class RepitorController {
         this.storageKey = storageKey
     }
 
+    clearStorage = () => {
+        LocalStorageRepitorController.clear(this.storageKey)
+    }
+
     currentList: WordInfo[] = []
     word?: WordInfo
 

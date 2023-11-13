@@ -1,8 +1,9 @@
 import styles from './WordRepitor.module.scss'
-import Gender from './Gender'
+import Gender, { GENDER_STORAGE_KEY } from './Gender'
 import Text from './Text'
 import { useState } from 'react'
 import Articles from './Articles'
+import RepitorController from './RepitorController'
 
 enum ScreenEnum {
     MAIN = 'main',
@@ -11,18 +12,37 @@ enum ScreenEnum {
     VERB = 'verb',
     ARTICLES = 'articles',
 }
+const ScreenClearKeyMap = {
+    [ScreenEnum.GENDER]: GENDER_STORAGE_KEY,
+    [ScreenEnum.MAIN]: '',
+    [ScreenEnum.VERB]: '',
+    [ScreenEnum.ARTICLES]: '',
+    [ScreenEnum.TEXT]: '',
+}
 export default function WordsRepitor() {
     const [screen, setScreen] = useState(ScreenEnum.MAIN)
     return (
         <main className={styles.container}>
-            <div>
+            <div className={styles.header}>
                 {screen !== ScreenEnum.MAIN && (
-                    <button
-                        className={styles.backButton}
-                        onClick={() => setScreen(ScreenEnum.MAIN)}
-                    >
-                        {`<= Back`}
-                    </button>
+                    <>
+                        <button
+                            className={styles.backButton}
+                            onClick={() => setScreen(ScreenEnum.MAIN)}
+                        >
+                            {`<= Back`}
+                        </button>
+                        <button
+                            onClick={() => {
+                                const storageControler = new RepitorController(
+                                    ScreenClearKeyMap[screen]
+                                )
+                                storageControler.clearStorage()
+                            }}
+                        >
+                            CLEAR
+                        </button>
+                    </>
                 )}
             </div>
             {screen === ScreenEnum.MAIN && (

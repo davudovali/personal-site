@@ -31,6 +31,9 @@ const LocalStorageRepitorController = {
             JSON.stringify(wordsDB)
         )
     },
+    clear: (key: string) => {
+        localStorage.removeItem(WORDS_REPITOR_STORAGE_KEY + key)
+    },
 }
 
 export default LocalStorageRepitorController

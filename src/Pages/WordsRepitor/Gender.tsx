@@ -4,9 +4,10 @@ import { ArticleEnum, NounWordType, RepeatResultEnum } from './RepitorTypes'
 import styles from './Gender.module.scss'
 import classNames from 'classnames'
 
+export const GENDER_STORAGE_KEY = 'gender'
 export default function Gender() {
     const [repeatorController] = useState(() => {
-        const controller = new RepitorController('gender')
+        const controller = new RepitorController(GENDER_STORAGE_KEY)
         controller.getInitialList()
         controller.getNextWord()
         return controller
@@ -53,7 +54,10 @@ export default function Gender() {
                     })}
                 >
                     <div className={styles.wordContainer}>
-                        <span>{word.info.text}</span>
+                        <span>
+                            {word.info.text}
+                            {word.info.translate}
+                        </span>
                     </div>
                     <div className={styles.buttonsContainer}>
                         <button
