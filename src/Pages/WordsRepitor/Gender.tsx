@@ -56,7 +56,9 @@ export default function Gender() {
                     <div className={styles.wordContainer}>
                         <span>
                             {word.info.text}
-                            {word.info.translate}
+                            <sub className={styles.translation}>
+                                ({word.info.translate})
+                            </sub>
                         </span>
                     </div>
                     <div className={styles.buttonsContainer}>
