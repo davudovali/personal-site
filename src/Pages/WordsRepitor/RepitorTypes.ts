@@ -47,15 +47,14 @@ export enum WordGrammarType {
 export type NounWordType = {
     text: string
     article: ArticleEnum
+    alwaysPlural?: boolean
     type: WordGrammarType.NOUN
-    level: LevelEnum
     translate: string
 }
 
 export type VerbWordType = {
     text: string
     type: WordGrammarType.VERB
-    level: LevelEnum
     translate: string
 }
 
