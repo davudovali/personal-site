@@ -5,8 +5,10 @@ import {
     RepeatResultEnum,
     VerbWordType,
     WordGrammarType,
+    WordNounInfo,
 } from './RepitorTypes'
 import styles from './Gender.module.scss'
+import { A1Noun } from './Lists/a1Noun'
 import classNames from 'classnames'
 
 function getFullText(info: NounWordType | VerbWordType) {
@@ -18,15 +20,16 @@ function getFullText(info: NounWordType | VerbWordType) {
 export default function Text() {
     const inputRef = useRef<HTMLInputElement | null>(null)
     const [repeatorController] = useState(() => {
-        const controller = new RepitorController('text')
+        const controller = new RepitorController('text', A1Noun)
         controller.getInitialList()
         controller.getNextWord()
         return controller
     })
 
-    const [word, setWord] = useState(repeatorController.word)
-
-    const [status, setStatus] = useState<true | false | null>(null)
+    const [{ status, word }, setState] = useState<{
+        status: null | boolean
+        word?: WordNounInfo
+    }>({ status: null, word: repeatorController.word as WordNounInfo })
 
     const handleResult = () => {
         if (!word) return
@@ -41,21 +44,43 @@ export default function Text() {
                 ? RepeatResultEnum.POSITIVE
                 : RepeatResultEnum.NEGATIVE,
         })
-        setStatus(status)
+        setState((old) => {
+            return { ...old, status }
+        })
     }
 
     useEffect(() => {
         if (status === true || status === false) {
             setTimeout(
                 () => {
-                    setWord(repeatorController.getNextWord())
-                    setStatus(null)
+                    setState({
+                        word: repeatorController.getNextWord() as WordNounInfo,
+                        status: null,
+                    })
                     if (inputRef.current) inputRef.current.value = ''
                 },
-                status ? 300 : 2000
+                status ? 1000 : 2000
             )
         }
     }, [status])
+
+    useEffect(() => {
+        console.log('sound', status)
+        if (word?.info && status !== null) {
+            try {
+                let text = word.info.text
+                if (word.info.article) {
+                    text = `${word.info.article} ${word.info.text}`
+                }
+                const utterance = new SpeechSynthesisUtterance(text)
+
+                utterance.lang = 'de-DE'
+                window.speechSynthesis.speak(utterance)
+            } catch (e) {
+                console.log(e)
+            }
+        }
+    }, [word?.info, status])
 
     return (
         <div>
@@ -74,7 +99,14 @@ export default function Text() {
                         </span>
                     </div>
                     <div className={styles.buttonsContainer}>
-                        <input type="text" ref={inputRef} />
+                        <input
+                            type="text"
+                            onKeyUp={(event) => {
+                                if (event.key === 'Enter') handleResult()
+                            }}
+                            ref={inputRef}
+                            style={{ fontSize: 16 }}
+                        />
                         <button onClick={handleResult}>OK</button>
                     </div>
                 </div>

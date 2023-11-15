@@ -44,7 +44,7 @@ export enum WordGrammarType {
     NOUN = 'noun',
 }
 
-export type NounWordType = {
+export interface NounWordType {
     text: string
     article: ArticleEnum
     alwaysPlural?: boolean
@@ -56,6 +56,13 @@ export type VerbWordType = {
     text: string
     type: WordGrammarType.VERB
     translate: string
+}
+
+export type WordNounInfo = {
+    id: number
+    repeatStatus: REPEAT_STATUS
+    info: NounWordType
+    nextTime?: number
 }
 
 export type WordInfo = {

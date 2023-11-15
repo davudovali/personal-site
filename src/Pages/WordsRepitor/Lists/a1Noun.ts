@@ -4,11 +4,11 @@ import {
     NounWordType,
     WordGrammarType,
     WordInfo,
-} from './RepitorTypes'
+} from '../RepitorTypes'
 
 type WordListType = NounWordType[]
 
-export const WordList: WordListType = [
+export const A1Noun: WordListType = [
     {
         text: 'Uhr',
         type: WordGrammarType.NOUN,

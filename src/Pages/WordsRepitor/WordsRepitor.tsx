@@ -35,7 +35,8 @@ export default function WordsRepitor() {
                         <button
                             onClick={() => {
                                 const storageControler = new RepitorController(
-                                    ScreenClearKeyMap[screen]
+                                    ScreenClearKeyMap[screen],
+                                    []
                                 )
                                 storageControler.clearStorage()
                             }}

@@ -134,7 +134,6 @@ export default function Articles() {
     const [status, setStatus] = useState<true | false | null>(null)
     const handleResult = () => {
         const answer = inputRef.current?.value
-        console.log(17, status)
         setStatus(status)
     }
 

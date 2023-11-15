@@ -1,13 +1,14 @@
 import {
+    NounWordType,
     REPEAT_STATUS,
     REPEAT_STATUS_NEXT,
     REPEAT_STATUS_PREVIOUS,
     RepeatResultEnum,
+    VerbWordType,
     WordInfo,
 } from './RepitorTypes'
 import LocalStorageRepitorController from './LocalStorageRepitorController'
 import dayjs, { ManipulateType } from 'dayjs'
-import { WordList } from './wordList'
 
 const ADD_TIME_MAP: {
     [key in Exclude<REPEAT_STATUS, REPEAT_STATUS.MONTH>]: {
@@ -22,10 +23,29 @@ const ADD_TIME_MAP: {
     [REPEAT_STATUS.TWO_WEEKS]: { type: 'month', number: 1 },
 }
 
+function shuffleArray<Type>(list: Type[]): Type[] {
+    const array = [...list]
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1))
+        var temp = array[i]
+        array[i] = array[j]
+        array[j] = temp
+    }
+    return array
+}
+
 export default class RepitorController {
     storageKey: string
-    constructor(storageKey: string) {
+    list: (NounWordType | VerbWordType)[]
+    packSize: number
+    constructor(
+        storageKey: string,
+        list: (NounWordType | VerbWordType)[],
+        packSize?: number
+    ) {
         this.storageKey = storageKey
+        this.list = list
+        this.packSize = packSize || 20
     }
 
     clearStorage = () => {
@@ -54,13 +74,13 @@ export default class RepitorController {
             a.nextTime && b.nextTime ? a.nextTime - b.nextTime : 1
         )
 
-        listToLearn = listToLearn.slice(0, 19)
-        const wordsNumberToAdd = 20 - listToLearn.length
+        listToLearn = listToLearn.slice(0, this.packSize - 1)
+        const wordsNumberToAdd = this.packSize - listToLearn.length
 
         if (wordsNumberToAdd > 0) {
             const startId = this.getTheStartId()
             for (let i = startId + 1; i < startId + 1 + wordsNumberToAdd; i++) {
-                const word = WordList[i]
+                const word = this.list[i]
                 if (!word) break
                 listToLearn.push({
                     info: word,
@@ -70,7 +90,7 @@ export default class RepitorController {
             }
         }
 
-        this.currentList = listToLearn
+        this.currentList = shuffleArray(listToLearn)
     }
 
     getTheStartId = () => {

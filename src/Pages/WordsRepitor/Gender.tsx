@@ -1,25 +1,40 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import RepitorController from './RepitorController'
-import { ArticleEnum, NounWordType, RepeatResultEnum } from './RepitorTypes'
+import { ArticleEnum, RepeatResultEnum, WordNounInfo } from './RepitorTypes'
 import styles from './Gender.module.scss'
 import classNames from 'classnames'
+import { A1GenderRules } from './Lists/a1GenderRules'
 
 export const GENDER_STORAGE_KEY = 'gender'
 export default function Gender() {
     const [repeatorController] = useState(() => {
-        const controller = new RepitorController(GENDER_STORAGE_KEY)
+        const controller = new RepitorController(
+            GENDER_STORAGE_KEY,
+            A1GenderRules,
+            200
+        )
         controller.getInitialList()
         controller.getNextWord()
         return controller
     })
 
-    const [word, setWord] = useState(repeatorController.word)
+    const [{ status, word, flip }, setState] = useState<{
+        status: null | boolean
+        flip: boolean
+        word?: WordNounInfo
+    }>({
+        status: null,
+        word: repeatorController.word as WordNounInfo,
+        flip: false,
+    })
 
-    const [status, setStatus] = useState<true | false | null>(null)
+    const handleFlip = useCallback(() => {
+        setState((old) => ({ ...old, flip: !old.flip }))
+    }, [])
 
     const handleResult = (article: ArticleEnum) => {
         if (!word) return
-        const info = word.info as NounWordType
+        const info = word.info
         const status = info.article === article
         repeatorController.handleWordProgress({
             word,
@@ -27,22 +42,27 @@ export default function Gender() {
                 ? RepeatResultEnum.POSITIVE
                 : RepeatResultEnum.NEGATIVE,
         })
-        setStatus(status)
+        setState((old) => {
+            return { ...old, status }
+        })
     }
 
     useEffect(() => {
         if (status === true || status === false) {
             setTimeout(
                 () => {
-                    setWord(repeatorController.getNextWord())
-                    setStatus(null)
+                    setState({
+                        word: repeatorController.getNextWord() as WordNounInfo,
+                        status: null,
+                        flip: false,
+                    })
                 },
-                status ? 300 : 2000
+                status ? 1000 : 2000
             )
         }
     }, [status])
 
-    const article = (word?.info as NounWordType)?.article
+    const article = word?.info.article
 
     return (
         <div>
@@ -54,12 +74,14 @@ export default function Gender() {
                     })}
                 >
                     <div className={styles.wordContainer}>
-                        <span>
-                            {word.info.text}
-                            <sub className={styles.translation}>
-                                ({word.info.translate})
-                            </sub>
-                        </span>
+                        <div onClick={handleFlip}>
+                            {!flip && <span>{word.info.text}</span>}
+                            {flip && (
+                                <span className={styles.translation}>
+                                    {word.info.translate}
+                                </span>
+                            )}
+                        </div>
                     </div>
                     <div className={styles.buttonsContainer}>
                         <button
