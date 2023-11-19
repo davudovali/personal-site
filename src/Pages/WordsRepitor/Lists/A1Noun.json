@@ -1,0 +1,1934 @@
+{
+  "name": "Noun A1",
+  "prefix": "nounA1",
+  "list": [
+    {
+      "text": "Uhr",
+      "article": "die",
+      "translate": "Clock",
+      "id": "cb3ecb83-ec41-478d-b40a-24d452cb8709"
+    },
+    {
+      "text": "Ende",
+      "article": "das",
+      "translate": "End",
+      "id": "98acb7df-a2e2-4984-97a8-085cf205feaf"
+    },
+    {
+      "text": "Zeit",
+      "article": "die",
+      "translate": "Time",
+      "id": "7ce718d0-78db-4be7-8b64-21658adc0496"
+    },
+    {
+      "text": "Stadt",
+      "article": "die",
+      "translate": "City",
+      "id": "33a5bdf8-ddcc-4edd-865d-cc1532a7bb52"
+    },
+    {
+      "text": "Frau",
+      "article": "die",
+      "translate": "Woman",
+      "id": "651b7336-26e2-4f2f-92cb-99cb95ce6f07"
+    },
+    {
+      "text": "Mann",
+      "article": "der",
+      "translate": "Man",
+      "id": "5d02a5da-0237-4eab-8d1b-9b491496d042"
+    },
+    {
+      "text": "Leben",
+      "article": "das",
+      "translate": "Life",
+      "id": "86e3f030-5834-40a5-b67e-4d18afccf4ba"
+    },
+    {
+      "text": "Welt",
+      "article": "die",
+      "translate": "World",
+      "id": "0d163666-1512-443d-b9f8-6b26cadbd5e6"
+    },
+    {
+      "text": "Land",
+      "article": "das",
+      "translate": "country",
+      "id": "aaaf821e-15ef-4dac-adbc-6b1f872cbebb"
+    },
+    {
+      "text": "Teil",
+      "article": "der",
+      "translate": "Part",
+      "id": "22093849-35f7-4f58-885a-ec38d30c5324"
+    },
+    {
+      "text": "Polizei",
+      "article": "die",
+      "translate": "police",
+      "id": "b3c01efa-719c-4d4b-8a47-a61e6fc8589a"
+    },
+    {
+      "text": "Geld",
+      "article": "das",
+      "translate": "Money",
+      "id": "317c32f2-dac2-4536-8309-a616ebeea47b"
+    },
+    {
+      "text": "Arbeit",
+      "article": "die",
+      "translate": "Work",
+      "id": "a279aa69-433c-4df6-80c6-f51660967ac4"
+    },
+    {
+      "text": "Platz",
+      "article": "der",
+      "translate": "Place",
+      "id": "bad0a0a4-a12a-49d7-a63d-de3c819507ef"
+    },
+    {
+      "text": "Anfang",
+      "article": "der",
+      "translate": "Beginning",
+      "id": "4d6355da-02dd-485a-8f7a-cee812ade123"
+    },
+    {
+      "text": "Haus",
+      "article": "das",
+      "translate": "House",
+      "id": "2232e530-c55d-49c2-8f48-504b9153c062"
+    },
+    {
+      "text": "Hilfe",
+      "article": "die",
+      "translate": "Help",
+      "id": "7f4f46e7-9844-4e76-8bb8-df6941a4775f"
+    },
+    {
+      "text": "Leute",
+      "alwaysPlural": true,
+      "article": "die",
+      "translate": "People",
+      "id": "ef05ad3d-6ed1-463b-9339-b19157f18585"
+    },
+    {
+      "text": "Ergebnis",
+      "article": "das",
+      "translate": "Result",
+      "id": "202b8cbd-d2d8-4ac4-a857-513f7e6dfd50"
+    },
+    {
+      "text": "Gruppe",
+      "article": "die",
+      "translate": "group",
+      "id": "7ef3e701-16bb-4f46-93b6-b02eeecd4320"
+    },
+    {
+      "text": "Beispiel",
+      "article": "das",
+      "translate": "Example",
+      "id": "76faecb6-7045-4e89-9eef-c02aa73c8d9b"
+    },
+    {
+      "text": "Familie",
+      "article": "die",
+      "translate": "Family",
+      "id": "06f66974-a7f2-4a12-bd9d-8a376b2309c8"
+    },
+    {
+      "text": "Bild",
+      "article": "das",
+      "translate": "Picture",
+      "id": "4b8b4e6b-a730-410f-aed8-444170ad55ed"
+    },
+    {
+      "text": "Hand",
+      "article": "die",
+      "translate": "hand",
+      "id": "bfe18e3f-4ccc-415a-9ea2-2c1caf01ef11"
+    },
+    {
+      "text": "Film",
+      "article": "der",
+      "translate": "Movie",
+      "id": "815471dd-5535-4b66-9cde-f48913ba3361"
+    },
+    {
+      "text": "Mitte",
+      "article": "die",
+      "translate": "center",
+      "id": "74c20276-5758-4c88-ad78-cd7defaa4a34"
+    },
+    {
+      "text": "Buch",
+      "article": "das",
+      "translate": "Book",
+      "id": "f2951144-461b-4a49-becc-54f16e21eef5"
+    },
+    {
+      "text": "Problem",
+      "article": "das",
+      "translate": "problem",
+      "id": "bfefce95-e2cd-4a95-92f0-c8dffd643329"
+    },
+    {
+      "text": "Eltern",
+      "alwaysPlural": true,
+      "article": "die",
+      "translate": "Parents",
+      "id": "bba47c54-b93f-4e7e-8d6d-759e663f0b94"
+    },
+    {
+      "text": "Firma",
+      "article": "die",
+      "translate": "company",
+      "id": "f193119a-dbb0-4157-b250-37476458ba64"
+    },
+    {
+      "text": "Wasser",
+      "article": "das",
+      "translate": "Water",
+      "id": "072de043-a6a2-420a-b68a-12ea2e2058e9"
+    },
+    {
+      "text": "Straße",
+      "article": "die",
+      "translate": "Street",
+      "id": "1611408a-6b7a-4413-988e-65ad065101d5"
+    },
+    {
+      "text": "Mutter",
+      "article": "die",
+      "translate": "Mother",
+      "id": "c7cede25-793c-4a3e-9ba4-0f16f8db0149"
+    },
+    {
+      "text": "Vater",
+      "article": "der",
+      "translate": "Father",
+      "id": "490ee1f4-8efc-4b62-a9d5-9a1f83c1385a"
+    },
+    {
+      "text": "Wort",
+      "article": "das",
+      "translate": "Word",
+      "id": "fb93071e-0415-4f6c-9972-050e3e1c3a9d"
+    },
+    {
+      "text": "Kopf",
+      "article": "der",
+      "translate": "Head",
+      "id": "df082a19-8ac8-4c84-8081-50f96c75b1fc"
+    },
+    {
+      "text": "Preis",
+      "article": "der",
+      "translate": "Price",
+      "id": "f9021319-a1ba-47c0-8ab0-088ea054177e"
+    },
+    {
+      "text": "Blick",
+      "article": "der",
+      "translate": "View",
+      "id": "c3696cc5-b6ed-4e9b-bdb3-a8bc227e1ea8"
+    },
+    {
+      "text": "Stelle",
+      "article": "die",
+      "translate": "Job",
+      "id": "bac1d009-32bc-492a-93be-29a7c94866b5"
+    },
+    {
+      "text": "Internet",
+      "article": "das",
+      "translate": "Internet",
+      "id": "40646372-f953-4590-a764-efa98bfeb45d"
+    },
+    {
+      "text": "Raum",
+      "article": "der",
+      "translate": "Space",
+      "id": "3e6d6e37-2eb7-4a6a-9c15-86380ee7280b"
+    },
+    {
+      "text": "Angebot",
+      "article": "das",
+      "translate": "Offer",
+      "id": "f91d679e-1570-4469-9a08-67f364160390"
+    },
+    {
+      "text": "Schule",
+      "article": "die",
+      "translate": "School",
+      "id": "cb3b1df9-7f59-46b0-a18e-bab956e2eddf"
+    },
+    {
+      "text": "Sprache",
+      "article": "die",
+      "translate": "Language",
+      "id": "0c654f69-7a77-4aff-8fd4-ebcc4c39267e"
+    },
+    {
+      "text": "Aufgabe",
+      "article": "die",
+      "translate": "Task",
+      "id": "b6e09d92-57fe-4dc6-b462-b4eb491d13bf"
+    },
+    {
+      "text": "Chef",
+      "article": "der",
+      "translate": "boss",
+      "id": "b413c215-1db2-4f4a-b09c-20d940fb204b"
+    },
+    {
+      "text": "Auto",
+      "article": "das",
+      "translate": "automobile",
+      "id": "b34a6dba-90ae-471c-b54f-e0b2e288f5d5"
+    },
+    {
+      "text": "Sohn",
+      "article": "der",
+      "translate": "Son",
+      "id": "d044e464-c7c8-4405-94fd-703067825a0f"
+    },
+    {
+      "text": "Ort",
+      "article": "der",
+      "translate": "Location",
+      "id": "5f0c2ed1-90fc-4dfd-920f-bdae5046cee9"
+    },
+    {
+      "text": "Kind",
+      "article": "das",
+      "translate": "child",
+      "id": "4a63f677-bd76-499b-ba5d-b48aaec14234"
+    },
+    {
+      "text": "Verein",
+      "article": "der",
+      "translate": "Association",
+      "id": "84299c78-0771-462c-98c2-617c650f4cad"
+    },
+    {
+      "text": "Mensch",
+      "article": "der",
+      "translate": "Person",
+      "id": "f0e5a98d-5908-4cda-a47d-320e46eabbf6"
+    },
+    {
+      "text": "Bank",
+      "article": "die",
+      "translate": "Bank",
+      "id": "59beec21-3ade-433a-accc-6a1aef02f370"
+    },
+    {
+      "text": "Ausland",
+      "article": "das",
+      "translate": "Abroad",
+      "id": "403d6406-1ff3-41d0-9d6f-8ceaf953fde8"
+    },
+    {
+      "text": "Herr",
+      "article": "der",
+      "translate": "Mister",
+      "id": "1666426c-c047-45a8-83e1-0cb3981eacab"
+    },
+    {
+      "text": "Tochter",
+      "article": "die",
+      "translate": "Daughter",
+      "id": "4ca7934f-8c82-4d2f-99cb-94efc3486f5d"
+    },
+    {
+      "text": "Stunde",
+      "article": "die",
+      "translate": "Hour",
+      "id": "ffb92574-755d-4170-8754-aabfae8ad773"
+    },
+    {
+      "text": "Zeitung",
+      "article": "die",
+      "translate": "Newspaper",
+      "id": "8a8c778b-d4d9-4a0d-acda-e9b3acfbe967"
+    },
+    {
+      "text": "Partner",
+      "article": "der",
+      "translate": "partner",
+      "id": "55f642af-779d-4a1c-a114-456a1a13a466"
+    },
+    {
+      "text": "Alter",
+      "article": "das",
+      "translate": "Old",
+      "id": "3a2e9cc8-5dee-4b80-91e6-2acfec2d1e65"
+    },
+    {
+      "text": "Wohnung",
+      "article": "die",
+      "translate": "Apartment",
+      "id": "5a93bafa-9ca8-4dde-9635-ef9e19f3539f"
+    },
+    {
+      "text": "Fehler",
+      "article": "der",
+      "translate": "Mistake",
+      "id": "fd878e36-1588-401c-b7b1-b67471c546c9"
+    },
+    {
+      "text": "Computer",
+      "article": "der",
+      "translate": "computer",
+      "id": "dc379d7b-d1b4-457a-94f9-fe1f88505c68"
+    },
+    {
+      "text": "Kurs",
+      "article": "der",
+      "translate": "course",
+      "id": "c1f7efad-eaa5-409d-b0e4-9a968c9f944d"
+    },
+    {
+      "text": "Antwort",
+      "article": "die",
+      "translate": "Answer",
+      "id": "02e0f39e-d89f-49f0-bbd8-8c95436d4dc1"
+    },
+    {
+      "text": "Licht",
+      "article": "das",
+      "translate": "Light",
+      "id": "19bab753-d65f-43f2-8dc2-a24cf1cd4d73"
+    },
+    {
+      "text": "Satz",
+      "article": "der",
+      "translate": "Sentence",
+      "id": "e6d59713-c344-44dd-a3f3-7dc763657001"
+    },
+    {
+      "text": "Heimat",
+      "article": "die",
+      "translate": "Hometown",
+      "id": "7e381c9d-8ce3-4595-b2e4-b2913d86a46d"
+    },
+    {
+      "text": "Papier",
+      "article": "das",
+      "translate": "Paper",
+      "id": "d42956e0-186d-4674-8bbd-a3b47ebd7965"
+    },
+    {
+      "text": "Jugendliche",
+      "article": "der",
+      "translate": "teenagers",
+      "id": "644fd3bb-6a6e-4046-94ab-8b446b9a58f6"
+    },
+    {
+      "text": "Freund",
+      "article": "der",
+      "translate": "Friend",
+      "id": "1c780d17-8c33-4718-9d52-96863c9c3ba2"
+    },
+    {
+      "text": "Text",
+      "article": "der",
+      "translate": "text",
+      "id": "c72013bc-4c8b-4364-99a3-f99a2c57bb38"
+    },
+    {
+      "text": "Tisch",
+      "article": "der",
+      "translate": "Table",
+      "id": "0f6c4cce-e335-4b3b-a8fb-79ba52eba0df"
+    },
+    {
+      "text": "Bahn",
+      "article": "die",
+      "translate": "Train",
+      "id": "06154ad1-9327-4a89-9307-922f70c43291"
+    },
+    {
+      "text": "Name",
+      "article": "der",
+      "translate": "Surname",
+      "id": "e4b1cb8a-3444-452b-8fa1-b304cc23bbf6"
+    },
+    {
+      "text": "Lehrer",
+      "article": "der",
+      "translate": "Teacher",
+      "id": "cb9f2576-889a-4500-8e50-aa3028dee51e"
+    },
+    {
+      "text": "Nummer",
+      "article": "die",
+      "translate": "number",
+      "id": "7c0acc5d-7255-4f69-823b-d8be416fd42d"
+    },
+    {
+      "text": "Moment",
+      "article": "der",
+      "translate": "moment",
+      "id": "2ec632b0-d231-4d9c-90d5-aaf90a4190b5"
+    },
+    {
+      "text": "Sport",
+      "article": "der",
+      "translate": "Sports",
+      "id": "5eb93566-0a59-4982-a1d9-6de334c00728"
+    },
+    {
+      "text": "Klasse",
+      "article": "die",
+      "translate": "Class",
+      "id": "4d5b568c-db0b-4a6c-917f-22e423a06a52"
+    },
+    {
+      "text": "Plan",
+      "article": "der",
+      "translate": "plan",
+      "id": "3b34a4ed-4ff4-4fdd-87ff-ec0a35246995"
+    },
+    {
+      "text": "Ordnung",
+      "article": "die",
+      "translate": "Order",
+      "id": "efe3ad57-ce2d-4030-9914-9e4c83fc5af2"
+    },
+    {
+      "text": "Hotel",
+      "article": "das",
+      "translate": "hotel",
+      "id": "607b7039-388c-4229-ae1f-f948e4abac5a"
+    },
+    {
+      "text": "Geburtstag",
+      "article": "der",
+      "translate": "Birthday",
+      "id": "d2f9b54c-d7b0-4b12-a61a-2c2cdba13916"
+    },
+    {
+      "text": "Praxis",
+      "article": "die",
+      "translate": "Practice",
+      "id": "fe0044ba-1d91-4abb-97f8-caadbfbeb36c"
+    },
+    {
+      "text": "Halle",
+      "article": "die",
+      "translate": "Hall",
+      "id": "d9563932-b444-423e-9dc5-0809969c1d32"
+    },
+    {
+      "text": "Essen",
+      "article": "das",
+      "translate": "Eat",
+      "id": "f4f1fc0a-bc78-433d-a5f8-906e30d2d0c3"
+    },
+    {
+      "text": "Auskunft",
+      "article": "die",
+      "translate": "Information",
+      "id": "2074911c-5da4-4e7c-9731-b85c81021c80"
+    },
+    {
+      "text": "Rechnung",
+      "article": "die",
+      "translate": "The invoice",
+      "id": "0944437f-fd74-4903-9393-ee13a7da5e36"
+    },
+    {
+      "text": "Telefon",
+      "article": "das",
+      "translate": "phone",
+      "id": "72a301c7-df7c-4a7e-8881-23eb2062314e"
+    },
+    {
+      "text": "Brief",
+      "article": "der",
+      "translate": "letter",
+      "id": "40345e5c-8fe3-4152-a4a9-b8fec78f9460"
+    },
+    {
+      "text": "Fahrer",
+      "article": "der",
+      "translate": "driver",
+      "id": "9f19b689-426c-4df0-ac61-4360a3a0bbc0"
+    },
+    {
+      "text": "Flughafen",
+      "article": "der",
+      "translate": "Airport",
+      "id": "1f474bbb-2cb3-4132-a9da-89bed0fcd2c6"
+    },
+    {
+      "text": "Feuer",
+      "article": "das",
+      "translate": "Fire",
+      "id": "cdb8b380-e6db-44a0-a07b-84dd581dd408"
+    },
+    {
+      "text": "Auge",
+      "article": "das",
+      "translate": "Eye",
+      "id": "a5da05d9-62cb-431b-9645-9a53e35acf4b"
+    },
+    {
+      "text": "Aussage",
+      "article": "die",
+      "translate": "Statement",
+      "id": "b1bdcfed-a4e4-4499-872c-e7a91792f5ad"
+    },
+    {
+      "text": "Arzt",
+      "article": "der",
+      "translate": "Physician",
+      "id": "19f5993f-0807-4153-a188-2742f8ffcc76"
+    },
+    {
+      "text": "Fußball",
+      "article": "der",
+      "translate": "football",
+      "id": "a6c873b8-99c4-46f2-b8e2-096e532eb909"
+    },
+    {
+      "text": "Dorf",
+      "article": "das",
+      "translate": "Village",
+      "id": "bafd606e-4cb0-4eb9-92fe-a8d2800d61e2"
+    },
+    {
+      "text": "Post",
+      "article": "die",
+      "translate": "post",
+      "id": "f6695b32-110e-4858-9585-7c1f30b28fd5"
+    },
+    {
+      "text": "Bruder",
+      "article": "der",
+      "translate": "Brother",
+      "id": "10f3566e-90cb-40da-89cc-5b1d3ce3c5aa"
+    },
+    {
+      "text": "Information",
+      "article": "die",
+      "translate": "information",
+      "id": "2be14e73-0cfa-460f-af74-c1aefc56d2d7"
+    },
+    {
+      "text": "Kino",
+      "article": "das",
+      "translate": "movie theater",
+      "id": "d801d6c8-f94a-4353-9a77-b986a207c015"
+    },
+    {
+      "text": "Zug",
+      "article": "der",
+      "translate": "Train",
+      "id": "d1937574-0a61-42ea-ac88-d022895deaf9"
+    },
+    {
+      "text": "Job",
+      "article": "der",
+      "translate": "job",
+      "id": "ee19470a-f23a-4154-9064-b2854d9a429b"
+    },
+    {
+      "text": "Beruf",
+      "article": "der",
+      "translate": "Profession",
+      "id": "523e7094-1952-4627-abf1-7b0beb19ae85"
+    },
+    {
+      "text": "Beamte",
+      "article": "der",
+      "translate": "Officer",
+      "id": "94965439-d181-4413-87ae-f70deec226e3"
+    },
+    {
+      "text": "Urlaub",
+      "article": "der",
+      "translate": "Vacation",
+      "id": "21405857-e612-45a6-955e-47880400bf25"
+    },
+    {
+      "text": "Junge",
+      "article": "der",
+      "translate": "Boy",
+      "id": "b880b8e9-3f7a-46e0-84b7-866983e59b30"
+    },
+    {
+      "text": "Arbeitsplatz",
+      "article": "der",
+      "translate": "Workplace",
+      "id": "b71b6682-f519-43b5-8711-78c62e95bc0c"
+    },
+    {
+      "text": "Wind",
+      "article": "der",
+      "translate": "wind",
+      "id": "a04d0bd6-3bdc-46ab-9a3b-91d7a6f51457"
+    },
+    {
+      "text": "Zimmer",
+      "article": "das",
+      "translate": "Room",
+      "id": "8cdee67b-9c85-405b-bb96-d7b489340153"
+    },
+    {
+      "text": "Kasse",
+      "article": "die",
+      "translate": "Checkout",
+      "id": "107c4719-dc5f-440a-89b0-1fd325b398fe"
+    },
+    {
+      "text": "Termin",
+      "article": "der",
+      "translate": "meeting",
+      "id": "2115b587-7ea4-45e1-b6bf-29c194d9068b"
+    },
+    {
+      "text": "Ecke",
+      "article": "die",
+      "translate": "Corner",
+      "id": "277cc951-29a3-4e67-b386-f81eaf2c189b"
+    },
+    {
+      "text": "Gast",
+      "article": "der",
+      "translate": "Guest",
+      "id": "fb40d01c-7950-4227-a3a6-dca5d04ba2f8"
+    },
+    {
+      "text": "Studium",
+      "article": "das",
+      "translate": "Studies",
+      "id": "3d87d5f5-315e-481f-be55-fb2e657f0ea6"
+    },
+    {
+      "text": "Meer",
+      "article": "das",
+      "translate": "sea",
+      "id": "2016ff0b-2fc3-424e-9a0d-bb0b91b6128c"
+    },
+    {
+      "text": "Bier",
+      "article": "das",
+      "translate": "Beer",
+      "id": "f3bf9f98-1e51-44b3-89ff-6aa022859cd3"
+    },
+    {
+      "text": "Farbe",
+      "article": "die",
+      "translate": "Color",
+      "id": "ef296fc4-332d-4038-a2b8-60bc22cedb6d"
+    },
+    {
+      "text": "Pause",
+      "article": "die",
+      "translate": "Break",
+      "id": "750e7a8b-606e-4a78-8ca9-af13cf8c2ff0"
+    },
+    {
+      "text": "Gewicht",
+      "article": "das",
+      "translate": "Weight",
+      "id": "220df10d-a2ad-4beb-9bef-542bf6496426"
+    },
+    {
+      "text": "Kunde",
+      "article": "der",
+      "translate": "customer",
+      "id": "270daf11-cf0a-4e45-9cd3-5df1155356a1"
+    },
+    {
+      "text": "Wetter",
+      "article": "das",
+      "translate": "Weather",
+      "id": "1864c3bd-88a3-4ccd-a60c-f6150688e203"
+    },
+    {
+      "text": "Maschine",
+      "article": "die",
+      "translate": "machine",
+      "id": "2b1ac202-9f63-499a-9b5a-987d5ad0d80c"
+    },
+    {
+      "text": "Bahnhof",
+      "article": "der",
+      "translate": "Railroad station",
+      "id": "1864eff1-1588-429b-bc1e-73bc959aedd3"
+    },
+    {
+      "text": "Bus",
+      "article": "der",
+      "translate": "bus",
+      "id": "6f626049-fdb5-45e2-920e-935a6f61c56c"
+    },
+    {
+      "text": "Regen",
+      "article": "der",
+      "translate": "Rain",
+      "id": "8a5b9575-c711-4a6b-aced-e30d0cbdd5a9"
+    },
+    {
+      "text": "Kollege",
+      "article": "der",
+      "translate": "Colleague",
+      "id": "8511a26a-90b9-4a5d-92ae-506b158edd1d"
+    },
+    {
+      "text": "Schwester",
+      "article": "die",
+      "translate": "Sister",
+      "id": "9e82caa9-c10b-4331-9db4-8f02dd4c54c7"
+    },
+    {
+      "text": "See",
+      "article": "der",
+      "translate": "lake",
+      "id": "a07aafb3-e69d-4d0a-955d-eb9c6871a93f"
+    },
+    {
+      "text": "Anzeige",
+      "article": "die",
+      "translate": "Advertisement",
+      "id": "f7748d1a-1170-4bc6-ad48-243bc357970d"
+    },
+    {
+      "text": "Foto",
+      "article": "das",
+      "translate": "photo",
+      "id": "349e23d9-2c2f-4a2d-a125-bafaab232a9e"
+    },
+    {
+      "text": "Foto",
+      "article": "die",
+      "translate": "photo",
+      "id": "4517c163-9112-43d7-a7b0-2b182af644ad"
+    },
+    {
+      "text": "Dank",
+      "article": "der",
+      "translate": "Thanks to",
+      "id": "dbe259e4-7801-4c0a-a468-b62f612de1c3"
+    },
+    {
+      "text": "Mund",
+      "article": "der",
+      "translate": "mouth",
+      "id": "d413a540-2d24-4bca-9662-80d2f364eb4c"
+    },
+    {
+      "text": "Autobahn",
+      "article": "die",
+      "translate": "Highway",
+      "id": "9ad0e719-44ad-4153-8aae-c4039f65daad"
+    },
+    {
+      "text": "Garten",
+      "article": "der",
+      "translate": "Garden",
+      "id": "89a574bc-df46-4d3b-9fe3-988e238cdb7f"
+    },
+    {
+      "text": "Glas",
+      "article": "das",
+      "translate": "Glass",
+      "id": "ea1233e8-d0f6-49ad-80a2-e9e5b6dd879f"
+    },
+    {
+      "text": "Bett",
+      "article": "das",
+      "translate": "Bed",
+      "id": "b68cdd3c-1321-4941-8be6-88024a9a0fbe"
+    },
+    {
+      "text": "Eintritt",
+      "article": "der",
+      "translate": "entry",
+      "id": "ad8d7520-7b0c-4807-813b-99d2ebc325d3"
+    },
+    {
+      "text": "Dame",
+      "article": "die",
+      "translate": "lady",
+      "id": "d5e14b32-4bfd-4432-85b1-d96effb36083"
+    },
+    {
+      "text": "Konto",
+      "article": "das",
+      "translate": "Account",
+      "id": "6927d47d-f1a0-414e-8fb5-a87943a15d72"
+    },
+    {
+      "text": "Restaurant",
+      "article": "das",
+      "translate": "restaurant",
+      "id": "36610ca4-b48c-42aa-80dd-9a9b1defcd2d"
+    },
+    {
+      "text": "Kaffee",
+      "article": "der",
+      "translate": "Coffee",
+      "id": "47a8e220-6139-492e-a0aa-d354f89e9e03"
+    },
+    {
+      "text": "Fleisch",
+      "article": "das",
+      "translate": "Meat",
+      "id": "737ab909-d925-41b0-8e9f-65762d7f50ad"
+    },
+    {
+      "text": "Eingang",
+      "article": "der",
+      "translate": "Entrance",
+      "id": "c2863b31-4569-40f3-93fb-bc0435abf2f5"
+    },
+    {
+      "text": "Flugzeug",
+      "article": "das",
+      "translate": "Airplane",
+      "id": "caf5ce49-9187-4d62-9df3-9f0f8f0e2789"
+    },
+    {
+      "text": "Stock",
+      "article": "der",
+      "translate": "floor",
+      "id": "f5e7ec99-679f-470c-964a-f51be6233142"
+    },
+    {
+      "text": "Tasche",
+      "article": "die",
+      "translate": "Bag",
+      "id": "494db3e7-90a2-42e3-8f42-3adb3e72494e"
+    },
+    {
+      "text": "Hund",
+      "article": "der",
+      "translate": "Dog",
+      "id": "b9d5c244-b416-446c-aa40-9b013db087ff"
+    },
+    {
+      "text": "Adresse",
+      "article": "die",
+      "translate": "address",
+      "id": "6b75db7f-f401-4750-9dea-225c940532ea"
+    },
+    {
+      "text": "Ehefrau",
+      "article": "die",
+      "translate": "Wife",
+      "id": "6f0d9c28-4958-426b-8ee2-d06ff2697813"
+    },
+    {
+      "text": "Datum",
+      "article": "das",
+      "translate": "Date",
+      "id": "66869bd4-759a-4475-9685-b55c34c53b42"
+    },
+    {
+      "text": "Arm",
+      "article": "der",
+      "translate": "poor",
+      "id": "26e30262-d95e-4671-a0f4-a2d0be7ce3ad"
+    },
+    {
+      "text": "Karte",
+      "article": "die",
+      "translate": "Map",
+      "id": "d50e204b-5ce8-4758-9f27-d6ae60ab89c4"
+    },
+    {
+      "text": "Baum",
+      "article": "der",
+      "translate": "Tree",
+      "id": "2839b9c4-d0ae-4a13-baab-0d194adcbaf4"
+    },
+    {
+      "text": "Unterricht",
+      "article": "der",
+      "translate": "Instruction",
+      "id": "35ffca14-4e7a-480d-afa8-4b02647fa617"
+    },
+    {
+      "text": "Einladung",
+      "article": "die",
+      "translate": "Invitation",
+      "id": "ef393921-87b9-48f5-8d40-3e6f48899bf6"
+    },
+    {
+      "text": "Laden",
+      "article": "der",
+      "translate": "Load",
+      "id": "a44e0915-72a6-49f3-815a-947f9e082941"
+    },
+    {
+      "text": "Bitte",
+      "article": "die",
+      "translate": "Please",
+      "id": "618a5da9-d7fe-4bae-afda-f45fbb0a5fa1"
+    },
+    {
+      "text": "Ausgang",
+      "article": "der",
+      "translate": "Exit",
+      "id": "f85de66d-254b-47d7-a83d-8c3cdd7df297"
+    },
+    {
+      "text": "Wein",
+      "article": "der",
+      "translate": "Wine",
+      "id": "0472c464-4941-4b40-a5f1-01d053b53043"
+    },
+    {
+      "text": "Erwachsene",
+      "article": "der",
+      "translate": "Adult",
+      "id": "5fb6307c-6574-40df-ba5a-a6a3fe0cd388"
+    },
+    {
+      "text": "Test",
+      "article": "der",
+      "translate": "test",
+      "id": "13b08e68-7b5a-457c-91e7-e8529ff08574"
+    },
+    {
+      "text": "Kindergarten",
+      "article": "der",
+      "translate": "kindergarten",
+      "id": "219745b9-f25d-4581-9d60-95567a67830a"
+    },
+    {
+      "text": "Lied",
+      "article": "das",
+      "translate": "song",
+      "id": "2088dd1e-b40b-4b76-849d-475c078dd35d"
+    },
+    {
+      "text": "Ehemann",
+      "article": "der",
+      "translate": "Husband",
+      "id": "157994c2-e66e-4a69-9f4e-48f92f117bb0"
+    },
+    {
+      "text": "Haar",
+      "article": "das",
+      "translate": "hair",
+      "id": "691e637f-9c61-46cf-a7d4-f5313f60f094"
+    },
+    {
+      "text": "Fax",
+      "article": "das",
+      "translate": "fax",
+      "id": "5cb064d0-9632-4e88-983f-1cc8b728f28d"
+    },
+    {
+      "text": "Freizeit",
+      "article": "die",
+      "translate": "Leisure time",
+      "id": "a6b4fe23-e0ff-452f-a0b9-a4819c40ec6b"
+    },
+    {
+      "text": "Kleidung",
+      "article": "die",
+      "translate": "Clothing",
+      "id": "1137307b-32cb-40e4-99f7-3f073e5d6bd4"
+    },
+    {
+      "text": "CD",
+      "article": "die",
+      "translate": "CD",
+      "id": "6ddaa5ce-082c-4d54-86f9-4fd9d2d26f69"
+    },
+    {
+      "text": "Brot",
+      "article": "das",
+      "translate": "Bread",
+      "id": "1fbdcf44-1295-478d-94b1-ca7c3aa5930e"
+    },
+    {
+      "text": "Miete",
+      "article": "die",
+      "translate": "Rent",
+      "id": "4e343c5e-c497-48fb-b24c-3410fcaee276"
+    },
+    {
+      "text": "Bauch",
+      "article": "der",
+      "translate": "Belly",
+      "id": "fe862949-c8e5-4cd3-80bd-59658226bc46"
+    },
+    {
+      "text": "Vorsicht",
+      "article": "die",
+      "translate": "Caution",
+      "id": "1de1d6be-84e1-4f1a-adeb-39a3cbcf5c60"
+    },
+    {
+      "text": "Milch",
+      "article": "die",
+      "translate": "milk",
+      "id": "578b9d9d-3272-4206-9334-2f24f7c84866"
+    },
+    {
+      "text": "Ankunft",
+      "article": "die",
+      "translate": "Arrival",
+      "id": "74b64a2e-4630-4b4e-8299-23f2991c1f1c"
+    },
+    {
+      "text": "Bad",
+      "article": "das",
+      "translate": "bath",
+      "id": "db2b9c9b-b2f3-4c24-a7c9-11bb8fb0d235"
+    },
+    {
+      "text": "Bein",
+      "article": "das",
+      "translate": "leg",
+      "id": "debbc61c-85e2-4ecd-96fa-fc2be80ff53b"
+    },
+    {
+      "text": "Student",
+      "article": "der",
+      "translate": "University student",
+      "id": "760dfc0d-75c6-4f14-ba30-2262dc999937"
+    },
+    {
+      "text": "Fahrrad",
+      "article": "das",
+      "translate": "Bicycle",
+      "id": "eac6adbf-b2bf-4e93-8b9b-78fc6b5c922f"
+    },
+    {
+      "text": "Hunger",
+      "article": "der",
+      "translate": "hunger",
+      "id": "86a820ad-a8c8-4a09-9284-f28c343eef09"
+    },
+    {
+      "text": "Fisch",
+      "article": "der",
+      "translate": "Fish",
+      "id": "360c890a-dd73-4c27-88b8-9e9f91843e1f"
+    },
+    {
+      "text": "Party",
+      "article": "die",
+      "translate": "party",
+      "id": "f65383b8-4fe7-489a-b6f1-56641252743d"
+    },
+    {
+      "text": "Hochzeit",
+      "article": "die",
+      "translate": "Wedding",
+      "id": "05c821a5-e7b8-4202-a36d-e48812e1d27f"
+    },
+    {
+      "text": "S-Bahn",
+      "article": "die",
+      "translate": "Train",
+      "id": "4f0a16d4-0f7a-43ac-9721-6d75aff683b3"
+    },
+    {
+      "text": "Vermieter",
+      "article": "der",
+      "translate": "Landlord",
+      "id": "d597eacc-6589-46b2-b3d5-36259b11ad7b"
+    },
+    {
+      "text": "Baby",
+      "article": "das",
+      "translate": "infant",
+      "id": "12dbe312-78fb-48e3-b96c-2f328cb02239"
+    },
+    {
+      "text": "Unterschrift",
+      "article": "die",
+      "translate": "Signature",
+      "id": "a29a12ef-ef2b-45ba-a88a-45d14423aad9"
+    },
+    {
+      "text": "Geschenk",
+      "article": "das",
+      "translate": "Gift",
+      "id": "e88df137-90a6-4217-aa52-48e0e50b1749"
+    },
+    {
+      "text": "Bogen",
+      "article": "der",
+      "translate": "arc",
+      "id": "12e7e8c2-86d8-4545-943f-6eecfa7fa01b"
+    },
+    {
+      "text": "Handy",
+      "article": "das",
+      "translate": "mobile",
+      "id": "a874c59b-806c-41e0-b977-6d700b4b0ed5"
+    },
+    {
+      "text": "Schild",
+      "article": "das",
+      "translate": "Sign",
+      "id": "9d46bd5a-1a9c-48d3-a091-5460b5907222"
+    },
+    {
+      "text": "Flasche",
+      "article": "die",
+      "translate": "Bottle",
+      "id": "2f0713aa-d083-49a0-8dd4-12b91b76f016"
+    },
+    {
+      "text": "Koffer",
+      "article": "der",
+      "translate": "Suitcase",
+      "id": "bf47881d-5038-43ee-88c0-7e7c807ef130"
+    },
+    {
+      "text": "Kuchen",
+      "article": "der",
+      "translate": "Cake",
+      "id": "82ebc54f-9f27-4589-9e0f-30be99bea282"
+    },
+    {
+      "text": "Lokal",
+      "article": "das",
+      "translate": "Local",
+      "id": "4acb7611-cf64-4368-8f04-5e0b7da2305e"
+    },
+    {
+      "text": "Formular",
+      "article": "das",
+      "translate": "Form",
+      "id": "4b5bc87d-7ac5-4cf0-b27e-ce2946b8cd18"
+    },
+    {
+      "text": "Abfahrt",
+      "article": "die",
+      "translate": "Departure",
+      "id": "895bb56a-f698-4efa-825b-bfe9f88158ad"
+    },
+    {
+      "text": "Tee",
+      "article": "der",
+      "translate": "tea",
+      "id": "ef86ef1b-12e8-463c-929d-86c00208dc57"
+    },
+    {
+      "text": "Doktor",
+      "article": "der",
+      "translate": "doctor",
+      "id": "1c8cbf53-7b7a-44bd-a2bf-5241fd9e2b87"
+    },
+    {
+      "text": "Treppe",
+      "article": "die",
+      "translate": "Stairs",
+      "id": "ee9498f8-8a0f-4604-a463-9afb74c1970f"
+    },
+    {
+      "text": "Ausflug",
+      "article": "der",
+      "translate": "Side trip",
+      "id": "a054f903-e4b5-4d3d-b14f-554334eeacf4"
+    },
+    {
+      "text": "Obst",
+      "article": "das",
+      "translate": "Fruit",
+      "id": "a349733e-555a-4f6c-8a48-d060075169fb"
+    },
+    {
+      "text": "Großvater",
+      "article": "der",
+      "translate": "grandfather",
+      "id": "c458a091-5728-403b-9301-48ca55db0902"
+    },
+    {
+      "text": "Reparatur",
+      "article": "die",
+      "translate": "repair",
+      "id": "0354ae8d-6d5d-495c-934d-6e9f4dfe8a77"
+    },
+    {
+      "text": "Großmutter",
+      "article": "die",
+      "translate": "grandmother",
+      "id": "07b0e455-64e9-4c19-af6a-9c481569a325"
+    },
+    {
+      "text": "Reis",
+      "article": "der",
+      "translate": "rice",
+      "id": "710ffbbd-4788-46ed-a629-d57a63dfc6da"
+    },
+    {
+      "text": "Anruf",
+      "article": "der",
+      "translate": "Call",
+      "id": "8993bf41-6923-4574-86c8-a9421d32679e"
+    },
+    {
+      "text": "Entschuldigung",
+      "article": "die",
+      "translate": "Excuse me",
+      "id": "09677bc9-8fd4-44c1-b213-7a4abc39caef"
+    },
+    {
+      "text": "Ei",
+      "article": "das",
+      "translate": "egg",
+      "id": "7d2d8a14-ba47-4af1-baf4-40aaec4e4df1"
+    },
+    {
+      "text": "Schluss",
+      "article": "der",
+      "translate": "Ending",
+      "id": "ecd16781-2c7e-4466-a34a-32603e0b6b23"
+    },
+    {
+      "text": "Drucker",
+      "article": "der",
+      "translate": "Printer",
+      "id": "dbcd081c-d31f-4545-a8bd-cdfb565929cd"
+    },
+    {
+      "text": "Salz",
+      "article": "das",
+      "translate": "Salt",
+      "id": "76c84f7c-3769-4f1e-a230-2746eccd26c8"
+    },
+    {
+      "text": "Straßenbahn",
+      "article": "die",
+      "translate": "tram",
+      "id": "bce23d2c-4e79-441b-bec8-9c024f6a95cd"
+    },
+    {
+      "text": "Bekannte",
+      "article": "der",
+      "translate": "Acquaintance",
+      "id": "1f685b36-12db-4399-ae44-198c337773fe"
+    },
+    {
+      "text": "Zigarette",
+      "article": "die",
+      "translate": "Cigarette",
+      "id": "a8b0e393-ca82-49d2-87e7-491534b12f53"
+    },
+    {
+      "text": "Zoll",
+      "article": "der",
+      "translate": "Customs",
+      "id": "521cae21-78f5-4da2-846e-5ad4ee7c1f46"
+    },
+    {
+      "text": "Wiedersehen",
+      "article": "das",
+      "translate": "Goodbye",
+      "id": "96506aa2-e0af-48a5-b6e5-4b3d38d21115"
+    },
+    {
+      "text": "Wiederhören",
+      "article": "das",
+      "translate": "Listen again",
+      "id": "e24223d2-3cea-497d-8084-23c92d877eb4"
+    },
+    {
+      "text": "Vorwahl",
+      "article": "die",
+      "translate": "Phone prefix",
+      "id": "5e6fa367-5e91-4d57-bfb7-58ee760bed07"
+    },
+    {
+      "text": "Vorname",
+      "article": "der",
+      "translate": "First name",
+      "id": "46b241d1-19a8-4a12-a2fb-b6f17402488f"
+    },
+    {
+      "text": "Verwandte",
+      "article": "der",
+      "translate": "Related",
+      "id": "de508829-1be4-4bbf-993f-301876d4410d"
+    },
+    {
+      "text": "Verkäufer",
+      "article": "der",
+      "translate": "Salesperson",
+      "id": "1b1611cc-782d-4577-be3d-00f52bc0e1e7"
+    },
+    {
+      "text": "Tomate",
+      "article": "die",
+      "translate": "tomato",
+      "id": "7af02e8c-d124-4be8-9ca1-ff37665a8bad"
+    },
+    {
+      "text": "Toilette",
+      "article": "die",
+      "translate": "Toilet",
+      "id": "b25b2b34-d410-4771-a42a-fef8405a0320"
+    },
+    {
+      "text": "Ticket",
+      "article": "das",
+      "translate": "ticket",
+      "id": "e0b9e2d0-d366-4693-b609-eaf9857cb9d7"
+    },
+    {
+      "text": "Taxi",
+      "article": "das",
+      "translate": "taxi",
+      "id": "c83c0d4e-0b02-4abe-a4e6-1717af6ea42c"
+    },
+    {
+      "text": "Speisekarte",
+      "article": "die",
+      "translate": "Menu",
+      "id": "fcc86108-9ca8-4b1b-8b83-6569dffebd0c"
+    },
+    {
+      "text": "Sofa",
+      "article": "das",
+      "translate": "sofa",
+      "id": "eb1579c4-a4e5-49d1-9941-000d3ac5345a"
+    },
+    {
+      "text": "Sehenswürdigkeit",
+      "article": "die",
+      "translate": "Sightseeing",
+      "id": "302d1608-27e2-4890-9a66-d6d5378907f2"
+    },
+    {
+      "text": "Schwimmbad",
+      "article": "das",
+      "translate": "Swimming pool",
+      "id": "05de09f9-f7ed-4d01-b4a5-14eb35d72cfd"
+    },
+    {
+      "text": "Schüler",
+      "article": "der",
+      "translate": "Pupils",
+      "id": "7a1e79d9-bd02-4bfe-80bb-1d831190ed3d"
+    },
+    {
+      "text": "Schuh",
+      "article": "der",
+      "translate": "shoe",
+      "id": "e988b8b2-67b8-446a-868d-ef595fffdc1d"
+    },
+    {
+      "text": "Schrank",
+      "article": "der",
+      "translate": "Wardrobe",
+      "id": "b5d061a7-8d2f-4c9f-b68a-dfe953af680f"
+    },
+    {
+      "text": "Schlüssel",
+      "article": "der",
+      "translate": "Key",
+      "id": "1b429923-e43b-45bc-8518-45736250d0c5"
+    },
+    {
+      "text": "Schinken",
+      "article": "der",
+      "translate": "Ham",
+      "id": "2f55fc31-b109-4e82-b66d-9a10d1b2e8db"
+    },
+    {
+      "text": "Schalter",
+      "article": "der",
+      "translate": "Switch",
+      "id": "523d9550-357e-4bd8-b01e-03db17fb039d"
+    },
+    {
+      "text": "Salat",
+      "article": "der",
+      "translate": "salad",
+      "id": "3e21fb35-a712-419e-9982-001106d8c31d"
+    },
+    {
+      "text": "Saft",
+      "article": "der",
+      "translate": "Juice",
+      "id": "ce3bcf9e-e161-4318-bfcf-16097eeb44b7"
+    },
+    {
+      "text": "Rezeption",
+      "article": "die",
+      "translate": "reception",
+      "id": "1128190a-9d45-41a6-92d4-2359d6401265"
+    },
+    {
+      "text": "Reisebüro",
+      "article": "das",
+      "translate": "Travel agency",
+      "id": "b19f77a9-10cc-4bee-8f1a-389552e3e3ac"
+    },
+    {
+      "text": "Prüfung",
+      "article": "die",
+      "translate": "Test",
+      "id": "ecc491f4-332a-42e9-91d6-58f2434ae2dd"
+    },
+    {
+      "text": "Prospekt",
+      "article": "der",
+      "translate": "brochure",
+      "id": "b4d461a7-9118-4809-9482-d0d02819711f"
+    },
+    {
+      "text": "Praktikum",
+      "article": "das",
+      "translate": "Internship",
+      "id": "6b33f083-9595-4e63-a24e-64efab26315f"
+    },
+    {
+      "text": "Postleitzahl",
+      "article": "die",
+      "translate": "Postal code",
+      "id": "6cb64217-ce85-42c9-b37d-07c5a9a8c6fe"
+    },
+    {
+      "text": "Pommes",
+      "article": "die",
+      "translate": "French fries",
+      "id": "82643218-e8e4-484f-9f3c-16f09937b5fe"
+    },
+    {
+      "text": "Pass",
+      "article": "der",
+      "translate": "passport",
+      "id": "cebffe52-6e6f-485f-8a4e-72ab923e4cce"
+    },
+    {
+      "text": "Opa",
+      "article": "der",
+      "translate": "Grandpa",
+      "id": "52c2470f-96e0-4f07-8dfc-399d4bfe95ea"
+    },
+    {
+      "text": "Oma",
+      "article": "die",
+      "translate": "granny",
+      "id": "9a070e6c-2bed-425e-a8dd-3ca6996e3dbc"
+    },
+    {
+      "text": "Möbel",
+      "article": "die",
+      "translate": "Furniture",
+      "id": "e5dec659-b1ac-4cec-a4c1-c499de8855e9"
+    },
+    {
+      "text": "Mädchen",
+      "article": "das",
+      "translate": "Girl",
+      "id": "c0a48a24-3527-4050-9a27-83a074a0de0d"
+    },
+    {
+      "text": "Lösung",
+      "article": "die",
+      "translate": "Solution",
+      "id": "c6edb066-c038-40a6-8e35-775e9546ad8e"
+    },
+    {
+      "text": "Lastkraftwagen",
+      "article": "der",
+      "translate": "Trucks",
+      "id": "36529682-8c26-435d-81fc-4e3488d302d7"
+    },
+    {
+      "text": "Kühlschrank",
+      "article": "der",
+      "translate": "Refrigerator",
+      "id": "7065d8da-b7bd-48c5-969e-f27eb053016e"
+    },
+    {
+      "text": "Kugelschreiber",
+      "article": "der",
+      "translate": "Ballpoint pen",
+      "id": "1b5adf04-ef57-465c-96b5-b98ac3b84a62"
+    },
+    {
+      "text": "Küche",
+      "article": "die",
+      "translate": "Kitchen",
+      "id": "9ac98a49-534b-437e-9198-ad2b9dbda1c4"
+    },
+    {
+      "text": "Kiosk",
+      "article": "der",
+      "translate": "kiosk",
+      "id": "b86c671a-f30d-4e9a-ada0-d03b2eda8ff0"
+    },
+    {
+      "text": "Kartoffel",
+      "article": "die",
+      "translate": "Potato",
+      "id": "27f9daf8-e69e-406b-866c-8446a8265fe2"
+    },
+    {
+      "text": "Jacke",
+      "article": "die",
+      "translate": "Jacket",
+      "id": "eee8eec7-bcf1-4c95-9081-7c75a7a3043d"
+    },
+    {
+      "text": "Hobby",
+      "article": "das",
+      "translate": "hobby",
+      "id": "67660ded-e9d0-4940-81fd-e33f0d756141"
+    },
+    {
+      "text": "Herd",
+      "article": "der",
+      "translate": "stove",
+      "id": "df8266ae-d2e4-471e-9cd6-dc9fe08518de"
+    },
+    {
+      "text": "Hausmann",
+      "article": "der",
+      "translate": "Hausmann",
+      "id": "0edc1b8d-082e-4738-a096-02d94880bcfa"
+    },
+    {
+      "text": "Hausfrau",
+      "article": "der",
+      "translate": "housewife",
+      "id": "04eac656-0e5c-468b-9991-1ae99170ef82"
+    },
+    {
+      "text": "Hausaufgabe",
+      "article": "die",
+      "translate": "Homework",
+      "id": "21db4194-c512-45ae-8b21-cb275ad3e456"
+    },
+    {
+      "text": "Haltestelle",
+      "article": "die",
+      "translate": "bus stop",
+      "id": "fa029c6f-2900-448b-95c0-a079a088e63b"
+    },
+    {
+      "text": "Halbpension",
+      "article": "die",
+      "translate": "Half board",
+      "id": "1d99f86a-0075-4db8-b967-c0d4604ad452"
+    },
+    {
+      "text": "Hähnchen",
+      "article": "das",
+      "translate": "Chicken",
+      "id": "7da5a461-4dca-4c29-b6c8-028a80feb494"
+    },
+    {
+      "text": "Gruß",
+      "article": "der",
+      "translate": "greeting",
+      "id": "3c2ba003-5edd-4559-9f45-f4b1ea8b3f2d"
+    },
+    {
+      "text": "Großeltern",
+      "article": "die",
+      "translate": "grandparents",
+      "id": "c50ed8f8-8f21-4017-8d93-c6fac053e280"
+    },
+    {
+      "text": "Größe",
+      "article": "die",
+      "translate": "Size",
+      "id": "dc5a57c1-2fe9-49c9-81c3-edea14cf3d47"
+    },
+    {
+      "text": "Glückwunsch",
+      "article": "der",
+      "translate": "Congratulations",
+      "id": "af31092d-fdfc-4aee-9c3c-ae6812809059"
+    },
+    {
+      "text": "Glück",
+      "article": "das",
+      "translate": "Happiness",
+      "id": "9cdb5737-19c4-4195-90b3-c58990c8fc3e"
+    },
+    {
+      "text": "Gleis",
+      "article": "das",
+      "translate": "Track",
+      "id": "59bcf4a1-b9c2-456e-9918-9f17028ce588"
+    },
+    {
+      "text": "Getränk",
+      "article": "das",
+      "translate": "Drink",
+      "id": "9ce6f41f-3103-4281-b673-2d4be63ba7cb"
+    },
+    {
+      "text": "Gespräch",
+      "article": "das",
+      "translate": "Conversation",
+      "id": "6f9fdd60-41ec-41c7-9bec-49c50d3879b3"
+    },
+    {
+      "text": "Geschwister",
+      "article": "die",
+      "translate": "Siblings",
+      "id": "8ff5bc29-c79e-4bb3-a6da-55a677ba6d3a"
+    },
+    {
+      "text": "Geschäft",
+      "article": "das",
+      "translate": "Business",
+      "id": "3960c4cf-f4a7-4b80-9c8a-e64a84fda2e7"
+    },
+    {
+      "text": "Gepäck",
+      "article": "das",
+      "translate": "Baggage",
+      "id": "f0602770-eced-4df5-a532-495230c4767c"
+    },
+    {
+      "text": "Gemüse",
+      "article": "das",
+      "translate": "Vegetables",
+      "id": "f5e9958c-be4f-426b-b23a-e8a91825f274"
+    },
+    {
+      "text": "Geburtsort",
+      "article": "der",
+      "translate": "Place of birth",
+      "id": "71625738-bb5a-4634-acb1-5a1a843f2361"
+    },
+    {
+      "text": "Geburtsjahr",
+      "article": "das",
+      "translate": "Year of birth",
+      "id": "8d6978cb-be71-46a4-9df5-c821fe3a502e"
+    },
+    {
+      "text": "Führung",
+      "article": "die",
+      "translate": "Guide",
+      "id": "81d3b89d-7171-46b0-9ea8-7c9783aa45e2"
+    },
+    {
+      "text": "Frühstück",
+      "article": "das",
+      "translate": "Breakfast",
+      "id": "8a4d5eb5-95d3-4fd8-af01-69b897782c29"
+    },
+    {
+      "text": "Abflug",
+      "article": "der",
+      "translate": "departure",
+      "id": "1dc1f653-d118-41d5-846a-bac973782b38"
+    },
+    {
+      "text": "Fieber",
+      "article": "das",
+      "translate": "Fever",
+      "id": "1bfbc4ba-b098-4f42-b17d-6c69251c4c82"
+    },
+    {
+      "text": "Familienstand",
+      "article": "der",
+      "translate": "Marital status",
+      "id": "df2e67b1-1477-443d-9daa-3b08d7175c4a"
+    },
+    {
+      "text": "Familienname",
+      "article": "der",
+      "translate": "family name",
+      "id": "1901d421-0d10-4f05-bcf7-7b8ba99cb8c3"
+    },
+    {
+      "text": "Fahrkarte",
+      "article": "die",
+      "translate": "ticket",
+      "id": "167dd8b7-322e-4e2f-a46f-87d370f26b1d"
+    },
+    {
+      "text": "Empfänger",
+      "article": "der",
+      "translate": "Recipient",
+      "id": "f4fe494d-5139-4f08-8b88-43fb772f205a"
+    },
+    {
+      "text": "E-Mail",
+      "article": "die",
+      "translate": "e-mail",
+      "id": "7860e1ba-a7c4-4830-91a9-5b5360b8d919"
+    },
+    {
+      "text": "Einzelzimmer",
+      "article": "das",
+      "translate": "Single room",
+      "id": "741d7d4e-2c08-46a2-9597-2e082c48bb40"
+    },
+    {
+      "text": "Durst",
+      "article": "der",
+      "translate": "thirst",
+      "id": "b450f6e2-0d96-47a2-b587-8851372c32d8"
+    },
+    {
+      "text": "Durchsage",
+      "article": "die",
+      "translate": "announcement",
+      "id": "997072aa-8c3e-4d05-bab9-08608d35a494"
+    },
+    {
+      "text": "Doppelzimmer",
+      "article": "das",
+      "translate": "Double room",
+      "id": "be3beb55-01bf-441a-8eb8-a3ec5640853c"
+    },
+    {
+      "text": "Disco",
+      "article": "die",
+      "translate": "Disco",
+      "id": "e5629748-52d1-4839-b69c-82744204789b"
+    },
+    {
+      "text": "Café",
+      "article": "das",
+      "translate": "Coffee shop",
+      "id": "1167d913-94b8-4b88-b1e2-49afa3e62534"
+    },
+    {
+      "text": "Butter",
+      "article": "die",
+      "translate": "butter",
+      "id": "71a59a6b-13bf-4649-b248-ba21e063e68d"
+    },
+    {
+      "text": "Buchstabe",
+      "article": "der",
+      "translate": "Letter",
+      "id": "e6fb84d6-e15d-4a17-bac5-59048fece09e"
+    },
+    {
+      "text": "Brötchen",
+      "article": "das",
+      "translate": "Bread roll",
+      "id": "8a788d29-a451-4e1b-90bd-759b2d92cd51"
+    },
+    {
+      "text": "Briefmarke",
+      "article": "der",
+      "translate": "Stamp",
+      "id": "917f29e5-57f4-474b-b37d-4c66d954c880"
+    },
+    {
+      "text": "Blume",
+      "article": "die",
+      "translate": "flower",
+      "id": "c0076f48-5420-4c36-afaf-0dedf014d7f6"
+    },
+    {
+      "text": "Bleistift",
+      "article": "der",
+      "translate": "Pencil",
+      "id": "8e5560ce-d75e-4e33-917b-d896ca25ab60"
+    },
+    {
+      "text": "Birne",
+      "article": "die",
+      "translate": "Pear",
+      "id": "6d1cc41f-6f84-4413-9d49-6368f7232d7c"
+    },
+    {
+      "text": "Banane",
+      "article": "die",
+      "translate": "banana",
+      "id": "b845b18f-66c3-4890-8223-546f10fadafc"
+    },
+    {
+      "text": "Balkon",
+      "article": "der",
+      "translate": "balcony",
+      "id": "e0ab0304-5f45-4373-94b0-559fdacf596a"
+    },
+    {
+      "text": "Bahnsteig",
+      "article": "der",
+      "translate": "platform",
+      "id": "e4bee985-3d94-4079-a3ca-348e32c2930b"
+    },
+    {
+      "text": "Bäckerei",
+      "article": "die",
+      "translate": "Bakery",
+      "id": "69cd39ce-eaf1-45bf-8e7f-69f160e13745"
+    },
+    {
+      "text": "Automat",
+      "article": "der",
+      "translate": "automat",
+      "id": "6925218f-ab5c-422d-b0c0-2d6923c387ea"
+    },
+    {
+      "text": "Ausweis",
+      "article": "der",
+      "translate": "ID",
+      "id": "bebf0b8f-eca3-409c-9ed3-ff63c29030e2"
+    },
+    {
+      "text": "Ausweis",
+      "article": "der",
+      "translate": "ID",
+      "id": "05332516-4ae3-450f-941e-e2c5fefd345a"
+    },
+    {
+      "text": "Ausländer",
+      "article": "der",
+      "translate": "Foreigner",
+      "id": "393e550b-bfd5-4be8-9a10-d45a89558ddf"
+    },
+    {
+      "text": "Aufzug",
+      "article": "der",
+      "translate": "Elevator",
+      "id": "2fe4a6f5-6448-445b-9bfe-9ec1984df8f7"
+    },
+    {
+      "text": "Appetit",
+      "article": "der",
+      "translate": "appetite",
+      "id": "3edce199-ea87-4fcd-88b4-7262e85ee537"
+    },
+    {
+      "text": "Apfel",
+      "article": "der",
+      "translate": "Apple",
+      "id": "8d0af065-5b60-443e-a82f-d25677a4167d"
+    },
+    {
+      "text": "Apartment",
+      "article": "das",
+      "translate": "Apartment",
+      "id": "1155dadb-4829-4b34-8b4d-e47d916457ae"
+    },
+    {
+      "text": "Anschluss",
+      "article": "der",
+      "translate": "Connection",
+      "id": "149e9788-72fa-4bdf-81a4-58c2c4a02d5e"
+    },
+    {
+      "text": "Ansage",
+      "article": "die",
+      "translate": "announcement",
+      "id": "8688998c-d307-4a24-8d77-c7fc8690b58a"
+    },
+    {
+      "text": "Absender",
+      "article": "der",
+      "translate": "Sender",
+      "id": "b2376a88-950d-457d-ac60-256e14db44d9"
+    }
+  ]
+}

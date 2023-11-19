@@ -1,0 +1,151 @@
+{
+  "name": "Phrases",
+  "prefix": "Phrases",
+  "list": [
+    {
+      "text": "Wer bist du?",
+      "id": "ce6890cd-e02e-4daf-8d1d-078c84e4af7c",
+      "translate": "Who are you?"
+    },
+    {
+      "text": "Wie Heisst du?",
+      "id": "4905e96b-c5cf-4e56-b4dc-704c5a23349b",
+      "translate": "What's your name?"
+    },
+    {
+      "text": "Wer ist dein Name?",
+      "id": "517f7aef-543a-4672-92c2-6bbe0d98a85c",
+      "translate": "What is your name?"
+    },
+    {
+      "text": "Wie geht's?",
+      "id": "1fb74435-e09c-4de1-aaad-89226e433293",
+      "translate": "How are you?"
+    },
+    {
+      "text": "Woher kommst du?",
+      "id": "b66f124d-6c1e-4d65-abc4-8e1036f172ea",
+      "translate": "Where do you come from?"
+    },
+    {
+      "text": "Wo wohnst du?",
+      "id": "eb82161f-6037-464e-81fe-3d20c004b1bd",
+      "translate": "Where do you live?"
+    },
+    {
+      "text": "Ich wohne in Deutschland",
+      "id": "37cafe72-aec1-4168-b550-611a5f69d93b",
+      "translate": "I live in Germany"
+    },
+    {
+      "text": "Welche Sprachen sprichst du?",
+      "id": "7c9b6e68-7320-4120-a13a-210ea487c719",
+      "translate": "Which languages do you speak?"
+    },
+    {
+      "text": "Was ist deine Muttersprache?",
+      "id": "41bab7c1-6c14-4b8d-94c9-da7f64012f8a",
+      "translate": "What is your native language?"
+    },
+    {
+      "text": "Was bis du von Beruf?",
+      "id": "4c32ffca-7fea-43d5-9715-ca39d3fb586b",
+      "translate": "What is your profession?"
+    },
+    {
+      "text": "Ich arbeite als Programme bei Civey",
+      "id": "d06823a1-103e-463d-94a0-48b3c8aa926b",
+      "translate": "I work as a program at Civey"
+    },
+    {
+      "text": "Was sind deine Hobbys?",
+      "id": "8260312a-f4d3-41f1-b9e5-fc614e99b060",
+      "translate": "What are your hobbies?"
+    },
+    {
+      "text": "Wie bitte?",
+      "id": "5856dcc2-37b9-4248-b4d1-eafd6d8e31ec",
+      "translate": "I'm sorry, what?"
+    },
+    {
+      "text": "Entschuldigung, noch einmal bitte",
+      "id": "89d2a85e-e4ba-4a3d-819e-18aa3c7d1d9b",
+      "translate": "Excuse me, could you repeat that please?"
+    },
+    {
+      "text": "Kannst du das bitte wiederholen?",
+      "id": "2878e5d4-e4d8-442a-81de-9660bfed3302",
+      "translate": "Can you please repeat that?"
+    },
+    {
+      "text": "Kannst du das bitte buchstabieren?",
+      "id": "f7660cca-21f7-46ae-a7c5-04a52d1a5583",
+      "translate": "Can you spell that please?"
+    },
+    {
+      "text": "Bitte ein bisschen langsamer",
+      "id": "1150e5c9-0308-4d1c-a9cf-20770a401272",
+      "translate": "A little slower, please"
+    },
+    {
+      "text": "Das verstehe ich nicht",
+      "id": "c393c1fa-341f-4740-beaf-9b11cac846a9",
+      "translate": "I do not understand that"
+    },
+    {
+      "text": "Gehen Sie hier links",
+      "id": "5564361b-b3b0-4692-90ac-de388c6e65d2",
+      "translate": "Go left here"
+    },
+    {
+      "text": "abbiegen",
+      "id": "b69e534b-0f10-4df8-96f8-44398543468b",
+      "translate": "turn"
+    },
+    {
+      "text": "Laufen Sie 200m geradeaus",
+      "id": "e035c84b-27a7-4b8e-b53d-065a06fae630",
+      "translate": "Walk straight ahead for 200m"
+    },
+    {
+      "text": "Laufen Sie 200m zurück",
+      "id": "852ec77a-1093-48c1-aca3-1ab0ebce8980",
+      "translate": "Run back 200m"
+    },
+    {
+      "text": "Biegen Sie dort rechts ab",
+      "id": "74b2d13f-86ec-4621-81f0-879019e5dee3",
+      "translate": "Turn right there"
+    },
+    {
+      "text": "Nehmen Sie die erste Straße links",
+      "id": "e83d35c1-9d39-4d56-875b-8d11be0df59f",
+      "translate": "Take the first street on the left"
+    },
+    {
+      "text": "Gehen Sie hier rechts, dann gleich links",
+      "id": "25bcba13-6a5e-42d2-a887-95932964a227",
+      "translate": "Go right here, then immediately left"
+    },
+    {
+      "text": "Gehen Sie hier rechts, dann noch mal rechts",
+      "id": "4dcd62b8-b490-4ad2-a1a8-7a3a64a8752f",
+      "translate": "Go right here, then right again"
+    },
+    {
+      "text": "Auf der rechten Seite ist ein Museum",
+      "id": "e0f44e57-ba56-4f87-bdae-d7ac523f4069",
+      "translate": "On the right is a museum"
+    },
+    {
+      "text": "Sie können 2 Stationen",
+      "id": "13e24f05-fca2-48d2-ac06-373198bf45dc",
+      "translate": "You can 2 stations"
+    },
+    {
+      "text": "Dann sind sie da",
+      "id": "d69c8bd3-b4ca-45d2-b22c-29bfbfbe61c0",
+      "translate": "Then they are there"
+    }
+  ]
+}

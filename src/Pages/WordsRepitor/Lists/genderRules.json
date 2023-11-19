@@ -1,0 +1,468 @@
+{
+  "name": "Gender rules",
+  "prefix": "genderRules",
+  "list": [
+    {
+      "text": "Currencies",
+      "type": "noun",
+      "article": "der",
+      "translate": "Currencies, except: die Mark (former German currency), das Pfund (British pound), die Krone (Danish currency)",
+      "id": "1b013065-b334-447f-a726-4a8823771c73"
+    },
+    {
+      "text": "Tage, Jahreszeiten, Monate",
+      "type": "noun",
+      "article": "der",
+      "translate": "Days, Seasons, Months are always masculine",
+      "id": "48e11479-2c34-49bb-8760-92ea1bf2a3cb"
+    },
+    {
+      "text": "Gin, Schnaps, Wein, Kakao, Saft",
+      "type": "noun",
+      "article": "der",
+      "translate": "Drinks except Das Bier",
+      "id": "26bbc14e-3c4d-463d-9f74-703614ee0cea"
+    },
+    {
+      "text": "Mountains and Mountain Ranges",
+      "type": "noun",
+      "article": "der",
+      "translate": "die Eifel, die Haardt, die Rhön, die Sierra Nevada, and mountains / mountain ranges that are actually compound nouns (compound nouns take the gender of the final noun): das Erzgebirge, das Matterhorn, die Zugspitze",
+      "id": "d2501154-0ea9-4c52-a207-221705828ac7"
+    },
+    {
+      "text": "Non-german Rivers",
+      "type": "noun",
+      "article": "der",
+      "translate": "Exceptions: non-German rivers ending in -a or -e, e.g.: die Seine, die Themse (Thames), die Wolga",
+      "id": "de3cdbcd-7366-4279-b17b-aaa065893014"
+    },
+    {
+      "text": "Outer Space(Moon, Pluto...)",
+      "type": "noun",
+      "article": "der",
+      "translate": "die Sonne (sun), die Venus, die Erde (Earth)",
+      "id": "d7931349-cdcf-4d0e-9ad1-c5fde5fc1ae3"
+    },
+    {
+      "text": "Rocks and Minerals",
+      "type": "noun",
+      "article": "der",
+      "translate": "Exceptions: das Erz (ore), die Kohle (coal), die Kreide (chalk), das Mineral (mineral)",
+      "id": "0b955138-4138-4b10-b5f8-ac8fabdb9167"
+    },
+    {
+      "text": "Weather",
+      "type": "noun",
+      "article": "der",
+      "translate": "Exceptions: die Sonne (sun), die Wolke (cloud), die Brise (breeze), das Eis (ice), das Gewitter (thunderstorm), die Graupel (hail), das Wetter (weather), die Witterung (atmospheric conditions)",
+      "id": "413ae8ca-f981-4cae-bbfd-fb0333c121ec"
+    },
+    {
+      "text": "-ung",
+      "type": "noun",
+      "article": "die",
+      "translate": "feminine",
+      "id": "72314556-684f-4656-97f5-bb3fb7d8cf9c"
+    },
+    {
+      "text": "Airplane, motorcycle, & ship makes/models/names",
+      "type": "noun",
+      "article": "die",
+      "translate": "die Boeing, die Cessna, die BMW, die Honda, die “Bismarck”, die “Bremen”\n\nCommon exceptions:\nMeans of transportation that maintain the gender of the base word, e.g.: der Airbus, der Storch, der “Albatros”, das “Möwchen”\n\nAlso general means of transportation: der Zug (train) [but die Bahn (railway/train)!], der Wagen / das Auto (car), das Schiff/Boot (ship/boot), das Fahrrad (bike), das Motorrad (motorcycle)",
+      "id": "39ad9f56-0050-42d9-b59a-d81c64a9eed2"
+    },
+    {
+      "text": "Animals",
+      "type": "noun",
+      "article": "die",
+      "translate": "die Gans (goose), die Kuh (cow), die Sau (sow), die Henne (hen)",
+      "id": "d48f9c5f-0c85-4055-95c0-0ef5b3c10e2b"
+    },
+    {
+      "text": "Numerals used as nouns",
+      "type": "noun",
+      "article": "die",
+      "translate": "die Eins (1), die Zwei (2), die Sechzehn (16), die Million, die Milliarde (billion)\n\nCommon exceptions:\nQuantity expressions such as das Dutzend, das Hundert, das Tausend",
+      "id": "0db98075-90ea-4aa4-bab3-fdcca50aef58"
+    },
+    {
+      "text": "Rivers within Germany, Austria, Switzerland",
+      "type": "noun",
+      "article": "die",
+      "translate": "die Donau, die Elbe, die Havel, die Mosel, die Oder, die Weser\n\nSome exceptions:\nder Inn, der Lech, der Main, der Neckar, der Rhein",
+      "id": "1b0094aa-946a-4f60-b3de-018650f6d5ba"
+    },
+    {
+      "text": "Trees, Fruits, and Flowers",
+      "type": "noun",
+      "article": "die",
+      "translate": "die Eiche (oak), die Pflaume (plum), die Tulpe (tulip),\n\nExceptions:\nder Ahorn (maple), der Apfel (apple), der Löwenzahn (dandelion)",
+      "id": "2bd22b5e-0956-47e8-9549-57412fecea2a"
+    },
+    {
+      "text": "Alphabet letters and music notes",
+      "type": "noun",
+      "article": "das",
+      "translate": "das “A”, das “B”, das “Fis” (F-sharp), das “Des” (D-flat)",
+      "id": "0a6b3006-3443-4844-831f-888d9817c5b1"
+    },
+    {
+      "text": "Continents, cities, provinces, and most countries",
+      "type": "noun",
+      "article": "das",
+      "translate": "das Afrika, das London, das Frankreich (France), das Bayern (Bavaria)\n\nCommon exceptions:\ndie Arktis (Artic), die Antarktis (Antarctica), die Schweiz (Switzerland) and other provinces or countries, including those that end in -a, -e, -ei, and -ie (e.g. die Türkei) that are gendered feminine with the exception of Afrika and China, which are still neuter; some countries are masculine: der Iran, der Jemen, der Kongo, der Libanon, der Sudan.",
+      "id": "7022dcab-aa45-466a-94d3-716df2ddcd56"
+    },
+    {
+      "text": "Gerunds, colors, languages, English -ing forms and other parts of speech used as nouns",
+      "type": "noun",
+      "article": "das",
+      "translate": "das Singen (singing), das Blau (blue), das Spanisch, das Meeting, das Nein (no)",
+      "id": "b874ee55-aa0a-4a0a-8ab4-0b00ef407e21"
+    },
+    {
+      "text": "Hotels, cafes, restaurants, and movie theaters",
+      "type": "noun",
+      "article": "das",
+      "translate": "das Marriott, das “Hard-Rock”, das Hilton, das “Grand Rex”",
+      "id": "7d1fef7c-3a26-4622-94bb-eebe3355382d"
+    },
+    {
+      "text": "Metals and chemical elements",
+      "type": "noun",
+      "article": "das",
+      "translate": "",
+      "id": "a3e1e840-3bda-4bf5-a1ec-87c76d332ceb"
+    },
+    {
+      "text": "Scientific units",
+      "type": "noun",
+      "article": "das",
+      "translate": "das Atom, das Elektron, das Volt, das Watt\n\nCommon exceptions:\nLiter and Meter having varying gender. (Read more in the Noun Outliers section.)",
+      "id": "e8c92e4c-6db2-48bc-8b67-4c26777fff67"
+    },
+    {
+      "text": "Young persons and baby animals",
+      "type": "noun",
+      "article": "das",
+      "translate": "das Baby, das Kind (child), das Ferkel (piglet), das Fohlen (foal), das Lamm (lamb)",
+      "id": "4d16976f-ad60-49d8-ab3f-7e01032d6a3f"
+    },
+    {
+      "text": "-ant",
+      "type": "noun",
+      "article": "der",
+      "translate": "",
+      "id": "56362685-7efa-463d-9caf-c1901a88cf50"
+    },
+    {
+      "text": "-ast",
+      "type": "noun",
+      "article": "der",
+      "translate": "",
+      "id": "619f6670-2b31-459d-b383-ea56ebfd6a05"
+    },
+    {
+      "text": "-ich",
+      "type": "noun",
+      "article": "der",
+      "translate": "",
+      "id": "d6e33a8f-4d85-4209-a601-0b45cc9df701"
+    },
+    {
+      "text": "-ig",
+      "type": "noun",
+      "article": "der",
+      "translate": "",
+      "id": "eca8df42-57c6-47e3-8c81-0a46918fcd17"
+    },
+    {
+      "text": "-ling",
+      "type": "noun",
+      "article": "der",
+      "translate": "",
+      "id": "ab1800df-5399-4871-853b-7882cc71ff8a"
+    },
+    {
+      "text": "-or",
+      "type": "noun",
+      "article": "der",
+      "translate": "",
+      "id": "00d55669-4974-4c9b-8e91-6ace4a3b25ff"
+    },
+    {
+      "text": "-us",
+      "type": "noun",
+      "article": "der",
+      "translate": "",
+      "id": "0df4f701-c57c-4edf-b5b5-e6f61c153e09"
+    },
+    {
+      "text": "nouns formed from strong verbs",
+      "type": "noun",
+      "article": "der",
+      "translate": "der Betrieb (operation, company, plant), der Biss (bite, from bissen), der Fall (case, instance; drop, from fallen), der Gang (gear; aisle)\n\nCommon exceptions:\ndas Grab (grave), das Leid (harm, sorrow), das Maß (measurement), das Schloss (castle), das Verbot (ban, prohibition)",
+      "id": "df55b919-2bda-4340-a7ae-18648b4d9e2d"
+    },
+    {
+      "text": "~60% of nouns ending in -en, -el, -er",
+      "type": "noun",
+      "article": "der",
+      "translate": "der Hafen (harbor), der Flügel (wing), der Schatten (shade), der Fehler (mistake) and all nouns referring to people (most are from verbs), e.g. der Bäcker (baker, from backen), der Fahrer (driver, from fahren), but also der Onkel (uncle), der Vater (father), etc.\n\nSome common exceptions:\nall gerunds such as das Essen (the food, eating) or das Fahren (driving); die Butter (butter), die Regel (rule), die Wurzel (root), die Geisel (hostage), das Fieber (fever), das Segel (sail), das Zeichen (sign, symbol)\n\nNOTE: there are no -en nouns that are feminine!",
+      "id": "67b3a2fe-5551-4cc3-bec2-b4d87ed32944"
+    },
+    {
+      "text": "-a",
+      "type": "noun",
+      "article": "die",
+      "translate": "",
+      "id": "e7f5c37e-bb49-46f2-bfdd-c78823781dae"
+    },
+    {
+      "text": "-anz",
+      "type": "noun",
+      "article": "die",
+      "translate": "",
+      "id": "98629094-dcec-4e1f-b184-d5f0f0a81c04"
+    },
+    {
+      "text": "-enz",
+      "type": "noun",
+      "article": "die",
+      "translate": "",
+      "id": "11caa84e-a132-4449-86fb-49e4e03fc276"
+    },
+    {
+      "text": "-ei",
+      "type": "noun",
+      "article": "die",
+      "translate": "",
+      "id": "6a87e00d-5365-4419-99c8-023063d04fc7"
+    },
+    {
+      "text": "-ie",
+      "type": "noun",
+      "article": "die",
+      "translate": "",
+      "id": "2e982e60-54da-48ed-8f3f-007fa85d500f"
+    },
+    {
+      "text": "-heit",
+      "type": "noun",
+      "article": "die",
+      "translate": "",
+      "id": "f62a1b29-77f1-4029-9d56-a590e108ba52"
+    },
+    {
+      "text": "-keit",
+      "type": "noun",
+      "article": "die",
+      "translate": "",
+      "id": "9c5af051-d76e-4e98-acb2-d054f19c2d4c"
+    },
+    {
+      "text": "-ik",
+      "type": "noun",
+      "article": "die",
+      "translate": "",
+      "id": "1d9d02f4-84d3-46ff-b221-6607d225d8e3"
+    },
+    {
+      "text": "-sion",
+      "type": "noun",
+      "article": "die",
+      "translate": "",
+      "id": "d5b6d9c8-0342-4002-85ec-686b4491e8c4"
+    },
+    {
+      "text": "-tion",
+      "type": "noun",
+      "article": "die",
+      "translate": "",
+      "id": "2ddd9e3d-efe4-422e-8024-9f9866d0f27c"
+    },
+    {
+      "text": "-sis",
+      "type": "noun",
+      "article": "die",
+      "translate": "",
+      "id": "ee308609-a7ae-4d36-8aeb-fbb9e0174d7c"
+    },
+    {
+      "text": "-tät",
+      "type": "noun",
+      "article": "die",
+      "translate": "",
+      "id": "d3654fda-540d-411a-8d6e-efc1a18e00c4"
+    },
+    {
+      "text": "-ung",
+      "type": "noun",
+      "article": "die",
+      "translate": "Common exceptions:das Sofa, das Genie (genius) ,der Atlantik, der Katholik, das Mosaik, der Pazifik, das Abitur (university-entrance diploma), das Purpur (purple)",
+      "id": "929499db-f679-4ec7-8701-8c95d5fef719"
+    },
+    {
+      "text": "90% of nouns ending in -e",
+      "type": "noun",
+      "article": "die",
+      "translate": "die Blume (flower), die Lampe (lamp), die Katze (cat), die Decke (blanket; ceiling) die Collage, die Marionette\n\nSome common exceptions:\nder Käse (cheese), das Auge (eye), das Ende (end), das Interesse (interest), most nouns that end with -e but begin with Ge- (e.g. das Genie)",
+      "id": "fe24d9f8-5e08-45d8-a529-42bef4d94fb6"
+    },
+    {
+      "text": "most nouns (coming from verbs) ending in -t",
+      "type": "noun",
+      "article": "die",
+      "translate": "die Ankunft (arrival), die Fahrt (drive), die Macht (power), die Aussicht (view)\n\nSome common exceptions:\nder Dienst (service), der Durst (thirst), das Gift (poison)",
+      "id": "9408d2c4-6657-4e95-9cd8-7d6c8131e398"
+    },
+    {
+      "text": "-chen",
+      "type": "noun",
+      "article": "das",
+      "translate": "",
+      "id": "3e54256a-ec56-4c31-a406-d0c09ea7d1ae"
+    },
+    {
+      "text": "-lein",
+      "type": "noun",
+      "article": "das",
+      "translate": "",
+      "id": "46f7a43a-5d85-409f-ac4b-f8617676342f"
+    },
+    {
+      "text": "-icht",
+      "type": "noun",
+      "article": "das",
+      "translate": "",
+      "id": "dd3d46f2-9bca-4441-bbdb-2f3b6527a08d"
+    },
+    {
+      "text": "-il",
+      "type": "noun",
+      "article": "das",
+      "translate": "",
+      "id": "2958e067-28ed-42b0-b88d-8e0963e8b4c2"
+    },
+    {
+      "text": "-it",
+      "type": "noun",
+      "article": "das",
+      "translate": "",
+      "id": "7507312a-a7f8-48df-bc20-e0d8e447b11b"
+    },
+    {
+      "text": "-ma",
+      "type": "noun",
+      "article": "das",
+      "translate": "",
+      "id": "45a4501a-fa57-4449-94bc-d84028a6800a"
+    },
+    {
+      "text": "-ment",
+      "type": "noun",
+      "article": "das",
+      "translate": "",
+      "id": "8f0d0e1e-251a-4218-af90-e409fd599b23"
+    },
+    {
+      "text": "-tel",
+      "type": "noun",
+      "article": "das",
+      "translate": "",
+      "id": "56c686f0-e406-4c69-8642-444e9585281f"
+    },
+    {
+      "text": "-tum",
+      "type": "noun",
+      "article": "das",
+      "translate": "",
+      "id": "ce5a7ad6-42a7-4b23-918a-41bbcafaf342"
+    },
+    {
+      "text": "-um",
+      "type": "noun",
+      "article": "das",
+      "translate": "",
+      "id": "6a798c83-246c-442a-924a-2b0b393c1003"
+    },
+    {
+      "text": "most nouns that start with the prefix Ge-",
+      "type": "noun",
+      "article": "das",
+      "translate": "das Gesetz (law), das Gespräch (conversation), das Gebäude (building)\n\nCommon exceptions:\nder Gedanke (thought), der Geschmack (taste), and approx. 20 other masculine and feminine nouns that start with Ge- not counting any Ge- nouns referring to male or female persons (e.g. der Genosse / die Genossin — comrade)",
+      "id": "875d9324-cf5a-4f7d-9ec9-0aa527294fb1"
+    },
+    {
+      "text": "~70% of nouns ending with -nis and -sal",
+      "type": "noun",
+      "article": "das",
+      "translate": "das Bedürfnis (need), das Ereignis (event), das Schicksal (fate)\n\nNote: The remaining 30% of -nis and -sal nouns are feminine and many originate from adjectives or indicate states of mind: die Bitternis (bitterness), die Finsternis (darkness), die Besorgnis (anxiety), die Betrübnis (sadness). Other: die Erkenntnis (perception), die Erlaubnis (permission), die Kenntnis (knowledge, cognition, skills), die Mühsal (hardship)",
+      "id": "4d5ab18c-cb51-400a-935f-ff3b171704e5"
+    },
+    {
+      "text": "-al (foreign loan words for objects)",
+      "type": "noun",
+      "article": "das",
+      "translate": "IF the suffixes -al, -an, -ar, -är, -at, -ent, -ett, -ier, -iv-, -o, -on are used to refer to male persons, they take the masculine: der Student, der Militär (military man), der Kanadier (male Canadian).\n\nOtherwise, these suffixes are generally neuter: das Lineal (ruler), das Organ, das Formular, das Militär (military), das Sekretariat (secretary), das Talent, das Etikett (label, tag), das Papier (paper), das Adjecktiv (adjective), das Büro (office), das Mikrophon",
+      "id": "f488b3ae-b33a-4a40-b492-4fb22a010e63"
+    },
+    {
+      "text": "-an (foreign loan words for objects)",
+      "type": "noun",
+      "article": "das",
+      "translate": "IF the suffixes -al, -an, -ar, -är, -at, -ent, -ett, -ier, -iv-, -o, -on are used to refer to male persons, they take the masculine: der Student, der Militär (military man), der Kanadier (male Canadian).\n\nOtherwise, these suffixes are generally neuter: das Lineal (ruler), das Organ, das Formular, das Militär (military), das Sekretariat (secretary), das Talent, das Etikett (label, tag), das Papier (paper), das Adjecktiv (adjective), das Büro (office), das Mikrophon",
+      "id": "fdfb714b-b434-499c-8e70-b6675bc76720"
+    },
+    {
+      "text": "-ar/-är (foreign loan words for objects)",
+      "type": "noun",
+      "article": "das",
+      "translate": "IF the suffixes -al, -an, -ar, -är, -at, -ent, -ett, -ier, -iv-, -o, -on are used to refer to male persons, they take the masculine: der Student, der Militär (military man), der Kanadier (male Canadian).\n\nOtherwise, these suffixes are generally neuter: das Lineal (ruler), das Organ, das Formular, das Militär (military), das Sekretariat (secretary), das Talent, das Etikett (label, tag), das Papier (paper), das Adjecktiv (adjective), das Büro (office), das Mikrophon",
+      "id": "9118ea32-64a6-46dc-ac7c-b5799a73a500"
+    },
+    {
+      "text": "-at (foreign loan words for objects)",
+      "type": "noun",
+      "article": "das",
+      "translate": "IF the suffixes -al, -an, -ar, -är, -at, -ent, -ett, -ier, -iv-, -o, -on are used to refer to male persons, they take the masculine: der Student, der Militär (military man), der Kanadier (male Canadian).\n\nOtherwise, these suffixes are generally neuter: das Lineal (ruler), das Organ, das Formular, das Militär (military), das Sekretariat (secretary), das Talent, das Etikett (label, tag), das Papier (paper), das Adjecktiv (adjective), das Büro (office), das Mikrophon",
+      "id": "48c4f7f6-c242-4a5f-8a80-4d616b806145"
+    },
+    {
+      "text": "-ent (foreign loan words for objects)",
+      "type": "noun",
+      "article": "das",
+      "translate": "IF the suffixes -al, -an, -ar, -är, -at, -ent, -ett, -ier, -iv-, -o, -on are used to refer to male persons, they take the masculine: der Student, der Militär (military man), der Kanadier (male Canadian).\n\nOtherwise, these suffixes are generally neuter: das Lineal (ruler), das Organ, das Formular, das Militär (military), das Sekretariat (secretary), das Talent, das Etikett (label, tag), das Papier (paper), das Adjecktiv (adjective), das Büro (office), das Mikrophon",
+      "id": "0d375106-3e91-4916-9bb8-f2c65df5a54e"
+    },
+    {
+      "text": "-ett (foreign loan words for objects)",
+      "type": "noun",
+      "article": "das",
+      "translate": "IF the suffixes -al, -an, -ar, -är, -at, -ent, -ett, -ier, -iv-, -o, -on are used to refer to male persons, they take the masculine: der Student, der Militär (military man), der Kanadier (male Canadian).\n\nOtherwise, these suffixes are generally neuter: das Lineal (ruler), das Organ, das Formular, das Militär (military), das Sekretariat (secretary), das Talent, das Etikett (label, tag), das Papier (paper), das Adjecktiv (adjective), das Büro (office), das Mikrophon",
+      "id": "f14f7c31-9945-4670-ad56-cf1ffba24d20"
+    },
+    {
+      "text": "-ier (foreign loan words for objects)",
+      "type": "noun",
+      "article": "das",
+      "translate": "IF the suffixes -al, -an, -ar, -är, -at, -ent, -ett, -ier, -iv-, -o, -on are used to refer to male persons, they take the masculine: der Student, der Militär (military man), der Kanadier (male Canadian).\n\nOtherwise, these suffixes are generally neuter: das Lineal (ruler), das Organ, das Formular, das Militär (military), das Sekretariat (secretary), das Talent, das Etikett (label, tag), das Papier (paper), das Adjecktiv (adjective), das Büro (office), das Mikrophon",
+      "id": "39255366-81b1-46ea-b7ab-4f1c58dcb0cf"
+    },
+    {
+      "text": "-iv (foreign loan words for objects)",
+      "type": "noun",
+      "article": "das",
+      "translate": "IF the suffixes -al, -an, -ar, -är, -at, -ent, -ett, -ier, -iv-, -o, -on are used to refer to male persons, they take the masculine: der Student, der Militär (military man), der Kanadier (male Canadian).\n\nOtherwise, these suffixes are generally neuter: das Lineal (ruler), das Organ, das Formular, das Militär (military), das Sekretariat (secretary), das Talent, das Etikett (label, tag), das Papier (paper), das Adjecktiv (adjective), das Büro (office), das Mikrophon",
+      "id": "392cf8af-eac1-4264-be15-93f19e08e778"
+    },
+    {
+      "text": " -o/-on (foreign loan words for objects)",
+      "type": "noun",
+      "article": "das",
+      "translate": "IF the suffixes -al, -an, -ar, -är, -at, -ent, -ett, -ier, -iv-, -o, -on are used to refer to male persons, they take the masculine: der Student, der Militär (military man), der Kanadier (male Canadian).\n\nOtherwise, these suffixes are generally neuter: das Lineal (ruler), das Organ, das Formular, das Militär (military), das Sekretariat (secretary), das Talent, das Etikett (label, tag), das Papier (paper), das Adjecktiv (adjective), das Büro (office), das Mikrophon",
+      "id": "a32d412d-5f89-4f50-b280-6e09c5370584"
+    }
+  ]
+}
