@@ -1,8 +1,8 @@
-import { WordInfo, WORDS_REPITOR_STORAGE_KEY } from './RepitorTypes'
+import { RepeatType, WORDS_REPITOR_STORAGE_KEY } from './RepitorTypes'
 
 interface WordsDBInterface {
-    list: { [key: number]: WordInfo }
-    learned: { [key: number]: WordInfo }
+    list: { [key: string]: RepeatType }
+    learned: { [key: string]: RepeatType }
 }
 
 const DEFAULT_WORDS_DB: WordsDBInterface = {

@@ -1,11 +1,10 @@
 import {
-    NounWordType,
     REPEAT_STATUS,
     REPEAT_STATUS_NEXT,
     REPEAT_STATUS_PREVIOUS,
     RepeatResultEnum,
-    VerbWordType,
-    WordInfo,
+    RepeatType,
+    WordType,
 } from './RepitorTypes'
 import LocalStorageRepitorController from './LocalStorageRepitorController'
 import dayjs, { ManipulateType } from 'dayjs'
@@ -36,15 +35,11 @@ function shuffleArray<Type>(list: Type[]): Type[] {
 
 export default class RepitorController {
     storageKey: string
-    list: (NounWordType | VerbWordType)[]
+    list: WordType[]
     packSize: number
-    constructor(
-        storageKey: string,
-        list: (NounWordType | VerbWordType)[],
-        packSize?: number
-    ) {
+    constructor(storageKey: string, list: WordType[], packSize?: number) {
         this.storageKey = storageKey
-        this.list = list
+        this.list = shuffleArray(list)
         this.packSize = packSize || 20
     }
 
@@ -52,22 +47,24 @@ export default class RepitorController {
         LocalStorageRepitorController.clear(this.storageKey)
     }
 
-    currentList: WordInfo[] = []
-    word?: WordInfo
+    currentList: RepeatType[] = []
+    word?: RepeatType
 
     getInitialList = () => {
-        const { list, learned } = LocalStorageRepitorController.getWordsDB(
-            this.storageKey
-        )
+        const { list: listToRepeat, learned } =
+            LocalStorageRepitorController.getWordsDB(this.storageKey)
         const currentDate = new Date().valueOf()
 
-        let listToLearn: WordInfo[] = Object.values(list).reduce(
+        const usedIdsList: string[] = []
+        let listToLearn: RepeatType[] = Object.values(listToRepeat).reduce(
             (result, word) => {
-                if (word.nextTime && word.nextTime < currentDate)
+                if (word.nextTime && word.nextTime < currentDate) {
                     result.push(word)
+                    usedIdsList.push(word.id)
+                }
                 return result
             },
-            [] as WordInfo[]
+            [] as RepeatType[]
         )
 
         listToLearn.sort((a, b) =>
@@ -78,19 +75,19 @@ export default class RepitorController {
         const wordsNumberToAdd = this.packSize - listToLearn.length
 
         if (wordsNumberToAdd > 0) {
-            const startId = this.getTheStartId()
-            for (let i = startId + 1; i < startId + 1 + wordsNumberToAdd; i++) {
-                const word = this.list[i]
-                if (!word) break
+            const newWordsList = [...this.list]
+                .filter(({ id }) => usedIdsList.includes(id) === false)
+                .slice(0, wordsNumberToAdd)
+            newWordsList.forEach((word) => {
                 listToLearn.push({
                     info: word,
                     repeatStatus: REPEAT_STATUS.HOUR,
-                    id: i,
+                    id: word.id,
                 })
-            }
+            })
         }
 
-        this.currentList = shuffleArray(listToLearn)
+        this.currentList = listToLearn
     }
 
     getTheStartId = () => {
@@ -117,7 +114,7 @@ export default class RepitorController {
         word,
         result,
     }: {
-        word: WordInfo
+        word: RepeatType
         result: RepeatResultEnum
     }) => {
         const wordsDB = LocalStorageRepitorController.getWordsDB(

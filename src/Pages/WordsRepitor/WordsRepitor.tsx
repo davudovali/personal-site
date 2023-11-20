@@ -1,23 +1,25 @@
 import styles from './WordRepitor.module.scss'
-import Gender, { GENDER_STORAGE_KEY } from './Gender'
+import Gender from './Gender'
 import Text from './Text'
 import { useState } from 'react'
-import Articles from './Articles'
 import RepitorController from './RepitorController'
 
+import A1Noun from './Lists/A1Noun.json'
+import Phrases from './Lists/Phrases.json'
+import { WordType } from './RepitorTypes'
 enum ScreenEnum {
     MAIN = 'main',
     GENDER = 'gender',
     TEXT = 'TEXT',
+    PHRASES = 'PHRASES',
     VERB = 'verb',
-    ARTICLES = 'articles',
 }
 const ScreenClearKeyMap = {
-    [ScreenEnum.GENDER]: GENDER_STORAGE_KEY,
+    [ScreenEnum.GENDER]: A1Noun.prefix,
     [ScreenEnum.MAIN]: '',
     [ScreenEnum.VERB]: '',
-    [ScreenEnum.ARTICLES]: '',
     [ScreenEnum.TEXT]: '',
+    [ScreenEnum.PHRASES]: Phrases.prefix,
 }
 export default function WordsRepitor() {
     const [screen, setScreen] = useState(ScreenEnum.MAIN)
@@ -54,17 +56,27 @@ export default function WordsRepitor() {
                     <button onClick={() => setScreen(ScreenEnum.TEXT)}>
                         TEXT
                     </button>
+                    <button onClick={() => setScreen(ScreenEnum.PHRASES)}>
+                        PHRASES
+                    </button>
                     <button onClick={() => setScreen(ScreenEnum.VERB)}>
                         VERB
-                    </button>
-                    <button onClick={() => setScreen(ScreenEnum.ARTICLES)}>
-                        ARTICLES
                     </button>
                 </div>
             )}
             {screen === ScreenEnum.GENDER && <Gender />}
-            {screen === ScreenEnum.ARTICLES && <Articles />}
-            {screen === ScreenEnum.TEXT && <Text />}
+            {screen === ScreenEnum.TEXT && (
+                <Text
+                    list={A1Noun.list as unknown as WordType[]}
+                    key={A1Noun.prefix}
+                />
+            )}
+            {screen === ScreenEnum.PHRASES && (
+                <Text
+                    list={Phrases.list as unknown as WordType[]}
+                    key={Phrases.prefix}
+                />
+            )}
         </main>
     )
 }

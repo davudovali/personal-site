@@ -39,35 +39,17 @@ export enum ArticleEnum {
     DAS = 'das',
 }
 
-export enum WordGrammarType {
-    VERB = 'verb',
-    NOUN = 'noun',
-}
-
-export interface NounWordType {
+export interface WordType {
     text: string
-    article: ArticleEnum
+    article?: ArticleEnum
+    id: string
     alwaysPlural?: boolean
-    type: WordGrammarType.NOUN
     translate: string
 }
 
-export type VerbWordType = {
-    text: string
-    type: WordGrammarType.VERB
-    translate: string
-}
-
-export type WordNounInfo = {
-    id: number
+export type RepeatType = {
+    id: string
     repeatStatus: REPEAT_STATUS
-    info: NounWordType
-    nextTime?: number
-}
-
-export type WordInfo = {
-    id: number
-    repeatStatus: REPEAT_STATUS
-    info: NounWordType | VerbWordType
+    info: WordType
     nextTime?: number
 }

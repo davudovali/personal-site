@@ -1,16 +1,23 @@
 import { useCallback, useEffect, useState } from 'react'
 import RepitorController from './RepitorController'
-import { ArticleEnum, RepeatResultEnum, WordNounInfo } from './RepitorTypes'
+import {
+    ArticleEnum,
+    RepeatResultEnum,
+    RepeatType,
+    WordType,
+} from './RepitorTypes'
 import styles from './Gender.module.scss'
 import classNames from 'classnames'
-import { A1GenderRules } from './Lists/a1GenderRules'
+import rules from './Lists/genderRules.json'
+
+const A1GenderRules = rules.list
 
 export const GENDER_STORAGE_KEY = 'gender'
 export default function Gender() {
     const [repeatorController] = useState(() => {
         const controller = new RepitorController(
             GENDER_STORAGE_KEY,
-            A1GenderRules,
+            A1GenderRules as unknown as WordType[],
             200
         )
         controller.getInitialList()
@@ -21,10 +28,10 @@ export default function Gender() {
     const [{ status, word, flip }, setState] = useState<{
         status: null | boolean
         flip: boolean
-        word?: WordNounInfo
+        word?: RepeatType
     }>({
         status: null,
-        word: repeatorController.word as WordNounInfo,
+        word: repeatorController.word,
         flip: false,
     })
 
@@ -52,7 +59,7 @@ export default function Gender() {
             setTimeout(
                 () => {
                     setState({
-                        word: repeatorController.getNextWord() as WordNounInfo,
+                        word: repeatorController.getNextWord(),
                         status: null,
                         flip: false,
                     })
