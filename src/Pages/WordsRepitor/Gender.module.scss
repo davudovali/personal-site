@@ -69,7 +69,8 @@
   }
   .wordContainer {
     height: calc(100vh - 3rem);
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
   }
   .wordContainer span {

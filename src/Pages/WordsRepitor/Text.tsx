@@ -27,36 +27,36 @@ export default function Text({ key, list }: TextRepitorInterface) {
         word?: RepeatType
     }>({ status: null, word: repeatorController.word })
 
+    const toTheNextWord = () => {
+        setState({
+            word: repeatorController.getNextWord(),
+            status: null,
+        })
+        if (inputRef.current) inputRef.current.value = ''
+    }
+
     const handleResult = () => {
+        if (status !== null) return toTheNextWord()
         if (!word) return
         const answer = inputRef.current?.value
         const info = word.info
         const correctAnswer = getFullText(info)
 
-        const status = answer?.toLowerCase() === correctAnswer.toLowerCase()
+        const newStatus = answer?.toLowerCase() === correctAnswer.toLowerCase()
         repeatorController.handleWordProgress({
             word,
-            result: status
+            result: newStatus
                 ? RepeatResultEnum.POSITIVE
                 : RepeatResultEnum.NEGATIVE,
         })
         setState((old) => {
-            return { ...old, status }
+            return { ...old, status: newStatus }
         })
     }
 
     useEffect(() => {
-        if (status === true || status === false) {
-            setTimeout(
-                () => {
-                    setState({
-                        word: repeatorController.getNextWord(),
-                        status: null,
-                    })
-                    if (inputRef.current) inputRef.current.value = ''
-                },
-                status ? 1000 : 3000
-            )
+        if (status === true) {
+            setTimeout(toTheNextWord, 1000)
         }
     }, [status])
 
