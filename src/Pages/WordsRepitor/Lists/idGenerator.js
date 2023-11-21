@@ -51,7 +51,7 @@ const addRandomIds = async (list) => {
 
 async function run() {
     // Specify the path to your JSON file
-    const filePath = './Phrases.json'
+    const filePath = './A1additions.json'
 
     // Read the JSON file
     const jsonData = readFile(filePath)

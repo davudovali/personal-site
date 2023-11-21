@@ -1,0 +1,666 @@
+{
+  "name": "A1 Additions",
+  "prefix": "a1Additions",
+  "list": [
+    {
+      "text": "allein",
+      "id": "a807a8b5-6e7f-48ab-aba6-cdfb91dc1694",
+      "translate": "alone"
+    },
+    {
+      "text": "also",
+      "id": "323f6d86-2ad9-46c8-80a0-f4acb6d50ee6",
+      "translate": "so"
+    },
+    {
+      "text": "alt",
+      "id": "de9b6cca-b501-4738-ba10-3e3d6253c7e1",
+      "translate": "old"
+    },
+    {
+      "text": "automatisch",
+      "id": "3a69b58b-7189-4463-97f2-8b83af35fbfd",
+      "translate": "automatically"
+    },
+    {
+      "text": "bald",
+      "id": "2768dab0-4753-45c3-ab7c-aa44b29c1ded",
+      "translate": "soon"
+    },
+    {
+      "text": "beide",
+      "id": "ac8006cc-77a1-48a3-9314-ec4079f8ec65",
+      "translate": "both"
+    },
+    {
+      "text": "bekannt",
+      "id": "88015756-e48a-4dc3-91a4-49f20e51250b",
+      "translate": "known"
+    },
+    {
+      "text": "besetzt",
+      "id": "6a4a766f-a48e-498f-84e1-a55173233053",
+      "translate": "occupied"
+    },
+    {
+      "text": "am besten",
+      "id": "4c745b59-164f-4f0c-8581-6f27802b8e8e",
+      "translate": "preferably"
+    },
+    {
+      "text": "billig",
+      "id": "6a54cc70-4210-4591-8d81-be13846db424",
+      "translate": "cheap"
+    },
+    {
+      "text": "bei",
+      "id": "72ace4d8-b28c-4d45-bb75-f94ef4480609",
+      "translate": "at"
+    },
+    {
+      "text": "bis",
+      "id": "c0c190f2-5212-4735-a5d7-6a863d286d21",
+      "translate": "until"
+    },
+    {
+      "text": "böse",
+      "id": "7ccb4b77-9a9a-4586-902f-5569a497e024",
+      "translate": "evil"
+    },
+    {
+      "text": "breit",
+      "id": "3a4ddcb7-f5ec-4823-9a88-026da78d3314",
+      "translate": "broad"
+    },
+    {
+      "text": "circa",
+      "id": "8252b800-041e-430f-b3d5-8089c891c9c7",
+      "translate": "approximately"
+    },
+    {
+      "text": "da",
+      "id": "ae30a3a4-b445-422b-8f9b-c27f16f73a71",
+      "translate": "there"
+    },
+    {
+      "text": "dann",
+      "id": "955c2a32-9252-42c5-9c3e-67ca1f025188",
+      "translate": "then"
+    },
+    {
+      "text": "dauern",
+      "id": "49968ff3-fa0e-4fe1-bfb8-35509c4f627a",
+      "translate": "last"
+    },
+    {
+      "text": "denn",
+      "id": "2e1713ac-fad9-4d71-9e0f-4365a3252069",
+      "translate": "because"
+    },
+    {
+      "text": "draußen",
+      "id": "76ec6c09-eedf-4aed-8ffe-ac96a8876f9a",
+      "translate": "outside"
+    },
+    {
+      "text": "durch",
+      "id": "1fe453f2-1315-4e0f-9b5b-26d81bbbc6dc",
+      "translate": "through"
+    },
+    {
+      "text": "eilig",
+      "id": "e123a127-d081-463e-85b5-5788be056cd6",
+      "translate": "hurry"
+    },
+    {
+      "text": "einfach",
+      "id": "30131b61-eb51-4274-9ee0-684914644c7a",
+      "translate": "simply"
+    },
+    {
+      "text": "einmal",
+      "id": "c259cd8b-4ad7-4078-908f-9bcd54961c7a",
+      "translate": "once"
+    },
+    {
+      "text": "falsch",
+      "id": "a5170a80-7f68-400b-a127-c02eb1647cdf",
+      "translate": "incorrect"
+    },
+    {
+      "text": "frei",
+      "id": "fa619cb9-1a9c-445b-be30-20e4173feb90",
+      "translate": "free"
+    },
+    {
+      "text": "fremd",
+      "id": "02451b93-5946-4d36-a6af-cb04e773d23c",
+      "translate": "foreign"
+    },
+    {
+      "text": "früher",
+      "id": "b5f599f5-e8b8-48e2-bbe6-e65614deaaaa",
+      "translate": "earlier"
+    },
+    {
+      "text": "für",
+      "id": "253bba7f-f8ce-408c-8265-b7d2aba69146",
+      "translate": "for"
+    },
+    {
+      "text": "gerade",
+      "id": "02526af8-6eb1-4e1f-84ed-5b3eaecf1838",
+      "translate": "straight"
+    },
+    {
+      "text": "geradeaus",
+      "id": "bf29348d-8679-4188-a76f-276e40d14504",
+      "translate": "straight ahead"
+    },
+    {
+      "text": "gern",
+      "id": "b19d46f8-2b55-4af2-8ee8-a891ffc14d4c",
+      "translate": "gladly"
+    },
+    {
+      "text": "gleich",
+      "id": "d2fcf45a-3334-471e-9355-02b524f30325",
+      "translate": "even"
+    },
+    {
+      "text": "glücklich",
+      "id": "79761b90-d8b6-4b26-ab81-4c007dc44433",
+      "translate": "happy"
+    },
+    {
+      "text": "groß",
+      "id": "68b5a30d-d0e1-41bc-bfe0-e85fff190e06",
+      "translate": "large"
+    },
+    {
+      "text": "gültig",
+      "id": "a50adaf2-c7da-4f85-93ae-3933c5f716c4",
+      "translate": "valid"
+    },
+    {
+      "text": "günstig",
+      "id": "234112c0-ef8f-4d96-892b-aa426c3158da",
+      "translate": "cheap"
+    },
+    {
+      "text": "hell",
+      "id": "2eac7624-50bc-4bdb-8679-edc6f6095e25",
+      "translate": "bright"
+    },
+    {
+      "text": "herzlich",
+      "id": "382437b0-4e23-48e4-9d1d-d452285715a1",
+      "translate": "heartfelt"
+    },
+    {
+      "text": "hinten",
+      "id": "9376ebcd-1e25-45b7-8aa7-1566fb1dd507",
+      "translate": "rear"
+    },
+    {
+      "text": "heute",
+      "id": "eeb955b1-bd12-4d2d-b767-f2f5eb5ddef8",
+      "translate": "today"
+    },
+    {
+      "text": "hier",
+      "id": "88000866-eef7-4cd1-8a48-778dc28705cc",
+      "translate": "here"
+    },
+    {
+      "text": "hoch",
+      "id": "0858391a-4796-49f4-bfe4-bdcde2499bb9",
+      "translate": "high"
+    },
+    {
+      "text": "immer",
+      "id": "7fd0f1d3-5640-438b-9140-1d716877b6cb",
+      "translate": "always"
+    },
+    {
+      "text": "international",
+      "id": "66199a0c-896b-4c90-8479-50ae3df32d45",
+      "translate": "international"
+    },
+    {
+      "text": "jetzt",
+      "id": "17162032-ba7f-4320-a1d5-22cfc3a19e7f",
+      "translate": "now"
+    },
+    {
+      "text": "jung",
+      "id": "ad2fe35b-9cfa-4e3f-bce3-96f5e5c2f7c6",
+      "translate": "young"
+    },
+    {
+      "text": "kaputt",
+      "id": "0f1d5a0b-c7d3-4d2f-87e8-7a1b698292d5",
+      "translate": "broken"
+    },
+    {
+      "text": "klar",
+      "id": "78c21322-b2c1-48ec-8630-b66edfe2cb54",
+      "translate": "clear"
+    },
+    {
+      "text": "klein",
+      "id": "c926aaf7-f5d4-460f-9af8-85a444d4b560",
+      "translate": "small"
+    },
+    {
+      "text": "krank",
+      "id": "0321ed35-e604-4ede-ac6b-1778237d414b",
+      "translate": "sick"
+    },
+    {
+      "text": "kulturell",
+      "id": "9d661474-af99-4f04-b187-b6faec15e7c0",
+      "translate": "cultural"
+    },
+    {
+      "text": "kurz",
+      "id": "d9f31ef7-626e-4397-9295-0448aad1b2d8",
+      "translate": "short"
+    },
+    {
+      "text": "lang",
+      "id": "88a73a02-619a-43aa-96c1-5949292c659a",
+      "translate": "long"
+    },
+    {
+      "text": "lange",
+      "id": "ed1cbd34-fb7e-4f80-ad76-b61cfa72a22d",
+      "translate": "long"
+    },
+    {
+      "text": "langsam",
+      "id": "aabd177f-d4fa-4f5a-873d-f225f61a6e8d",
+      "translate": "slow"
+    },
+    {
+      "text": "laut",
+      "id": "f1d012f4-e14f-41c9-adcf-b47a9156f080",
+      "translate": "loud"
+    },
+    {
+      "text": "ledig",
+      "id": "28e568bc-3684-4799-ab1a-050ded24ec67",
+      "translate": "single"
+    },
+    {
+      "text": "leicht",
+      "id": "e4e73381-7f32-4f7a-b825-92d880ff5e1a",
+      "translate": "light"
+    },
+    {
+      "text": "leider",
+      "id": "f0042987-51db-4d46-a451-4785ded246cb",
+      "translate": "unfortunately"
+    },
+    {
+      "text": "leise",
+      "id": "cb5aa74b-83f6-4c96-bf25-fc2faeb516ca",
+      "translate": "quiet"
+    },
+    {
+      "text": "letzt",
+      "id": "0b2a3526-dc3d-46db-b595-1610a70df50b",
+      "translate": "last"
+    },
+    {
+      "text": "links",
+      "id": "3029cd7f-c7d8-4fed-8f64-88be6602081c",
+      "translate": "Left"
+    },
+    {
+      "text": "lustig",
+      "id": "1d337a96-8f00-456b-b27d-a88408d88071",
+      "translate": "funny"
+    },
+    {
+      "text": "mehr",
+      "id": "437a18eb-60c5-4111-9812-d4302a2d8c59",
+      "translate": "more"
+    },
+    {
+      "text": "mit",
+      "id": "182e401e-0462-48ed-b5a0-f64d64b6b6b1",
+      "translate": "with"
+    },
+    {
+      "text": "möglich",
+      "id": "eb855d20-0e9c-4db8-be38-490efe3c520b",
+      "translate": "possible"
+    },
+    {
+      "text": "müde",
+      "id": "f392508c-6701-44a0-9aff-87df45695ab6",
+      "translate": "tired"
+    },
+    {
+      "text": "morgen",
+      "id": "084bf4c8-f162-4174-9be5-4c73da489fa3",
+      "translate": "morning"
+    },
+    {
+      "text": "nach",
+      "id": "39524c95-75f5-4a0b-8b87-340198ef48da",
+      "translate": "after"
+    },
+    {
+      "text": "nächst",
+      "id": "8ace8ca9-0198-440c-a719-5c74ca02512c",
+      "translate": "next"
+    },
+    {
+      "text": "neu",
+      "id": "35ff62f3-3d59-432b-9f73-833f32d8c0de",
+      "translate": "new"
+    },
+    {
+      "text": "nein",
+      "id": "2c389df3-597d-4e71-afd2-7e085e8b0f59",
+      "translate": "no"
+    },
+    {
+      "text": "nicht",
+      "id": "ac087b67-22e9-4945-9e0e-93050b2667b4",
+      "translate": "not"
+    },
+    {
+      "text": "nichts",
+      "id": "cb79e17f-6fcf-4426-991e-2044d2be2198",
+      "translate": "nothing"
+    },
+    {
+      "text": "nie",
+      "id": "900fdf68-bbdc-4241-9e23-28408abbb58f",
+      "translate": "never"
+    },
+    {
+      "text": "noch",
+      "id": "37fc0be3-9759-44a7-b307-9c29d9a1ca20",
+      "translate": "still"
+    },
+    {
+      "text": "normal",
+      "id": "f1d00eee-80b3-4374-a586-4ee6601dede8",
+      "translate": "normal"
+    },
+    {
+      "text": "nur",
+      "id": "5d56ebef-ede7-4def-a9a2-316dac3dfafe",
+      "translate": "only"
+    },
+    {
+      "text": "oben",
+      "id": "fb9261ef-e4a6-41e7-b0bf-4baee6e81544",
+      "translate": "above"
+    },
+    {
+      "text": "oft",
+      "id": "ab29bde6-1c8e-4fef-adb8-fbd663b2117e",
+      "translate": "often"
+    },
+    {
+      "text": "ohne",
+      "id": "78327b93-e8ca-45c2-b404-96bd30409c53",
+      "translate": "without"
+    },
+    {
+      "text": "pünktlich",
+      "id": "4aa87b2a-3b19-4148-a30e-57cbf46c2f7a",
+      "translate": "on time"
+    },
+    {
+      "text": "rechts",
+      "id": "6869a0ec-71b8-46f2-abdd-a2e1e3a44b01",
+      "translate": "right"
+    },
+    {
+      "text": "richtig",
+      "id": "c975d728-63bc-472b-88c7-ab617e578120",
+      "translate": "correct"
+    },
+    {
+      "text": "ruhig",
+      "id": "7ad4399c-d78d-4670-a624-06800376f41c",
+      "translate": "quiet"
+    },
+    {
+      "text": "schlecht",
+      "id": "1a9a3b41-3105-41ac-9caf-7103d00932f2",
+      "translate": "bad"
+    },
+    {
+      "text": "schnell",
+      "id": "093fd723-c9b4-4a23-b48c-1fd8729bb027",
+      "translate": "fast"
+    },
+    {
+      "text": "schon",
+      "id": "382a45ba-2913-43cf-90a9-8ca54d806f3f",
+      "translate": "already"
+    },
+    {
+      "text": "schön",
+      "id": "cf3bd1d5-cca9-4a18-ae99-ac26f2092f77",
+      "translate": "nice"
+    },
+    {
+      "text": "schwer",
+      "id": "575d4dc6-51d6-4b18-995b-1d2e99c4f1f6",
+      "translate": "difficult"
+    },
+    {
+      "text": "sehr",
+      "id": "aa251e28-eee0-4183-b4bd-58e6852b56ef",
+      "translate": "very"
+    },
+    {
+      "text": "seit",
+      "id": "aff50f49-8da2-456b-8646-5c946bca079c",
+      "translate": "since"
+    },
+    {
+      "text": "sich",
+      "id": "f147cb00-67bd-49f4-a238-fec539f3ab18",
+      "translate": "itself"
+    },
+    {
+      "text": "spät",
+      "id": "980d2c85-cae0-4b59-9c25-0310b8f1cb4f",
+      "translate": "late"
+    },
+    {
+      "text": "später",
+      "id": "ed18577b-3750-4a80-ae77-232f250881de",
+      "translate": "later"
+    },
+    {
+      "text": "stellen",
+      "id": "3b0d853b-cac6-4fd0-b106-1c7140cef6b3",
+      "translate": "place"
+    },
+    {
+      "text": "teuer",
+      "id": "9f342b58-c76b-4c67-a886-868f233e947e",
+      "translate": "expensive"
+    },
+    {
+      "text": "tot",
+      "id": "420921ec-a63b-4e1a-9585-2ab56f2788fb",
+      "translate": "dead"
+    },
+    {
+      "text": "tun",
+      "id": "d34dd587-59b9-4c6f-a882-2283eacf618c",
+      "translate": "do"
+    },
+    {
+      "text": "um",
+      "id": "9d3c7e33-eb15-46ce-bcc3-ed8de4fb6831",
+      "translate": "around"
+    },
+    {
+      "text": "unten",
+      "id": "6dc8600c-2382-4c8a-9125-5017d6020201",
+      "translate": "below"
+    },
+    {
+      "text": "unter",
+      "id": "44705832-2c4d-4917-804e-fb677bc663f2",
+      "translate": "under"
+    },
+    {
+      "text": "verheiratet",
+      "id": "b399b1ad-1f3c-4b7c-9383-641013f41ca4",
+      "translate": "married"
+    },
+    {
+      "text": "viel",
+      "id": "552dcc98-f7f2-43df-aae6-291be5065649",
+      "translate": "much"
+    },
+    {
+      "text": "vielleicht",
+      "id": "47b26d0e-766d-4177-a481-d9d7e0aeca88",
+      "translate": "perhaps"
+    },
+    {
+      "text": "von",
+      "id": "b4f12fa6-7684-4fe0-8afe-526c8867b86e",
+      "translate": "from"
+    },
+    {
+      "text": "vor",
+      "id": "12e42a68-d398-413e-9b9e-e695ae80597c",
+      "translate": "before"
+    },
+    {
+      "text": "wann",
+      "id": "c889d1f4-750e-436c-a8e0-f8e13719a519",
+      "translate": "When"
+    },
+    {
+      "text": "warum",
+      "id": "697c68fe-e069-4ef7-9b4b-d9db2c08f5e5",
+      "translate": "Why"
+    },
+    {
+      "text": "was",
+      "id": "4f95f01a-acc0-4b3a-82a1-5152808b317b",
+      "translate": "What"
+    },
+    {
+      "text": "was für ein",
+      "id": "394bf6c1-f5da-451c-80d1-49311f09b3e0",
+      "translate": "what a"
+    },
+    {
+      "text": "weh tun",
+      "id": "f095bea9-5942-46ee-8db4-ec2045082c72",
+      "translate": "hurt"
+    },
+    {
+      "text": "weiblich",
+      "id": "63901288-ef79-434d-adb6-b3789edc683b",
+      "translate": "female"
+    },
+    {
+      "text": "weit",
+      "id": "fc97483d-5ec5-499e-87e0-45f8f95391a4",
+      "translate": "far"
+    },
+    {
+      "text": "weiter",
+      "id": "181721a4-a7a1-4984-9446-58193923a1e0",
+      "translate": "further"
+    },
+    {
+      "text": "wenig",
+      "id": "01e6736a-9690-456e-b054-8d30b52f1a3d",
+      "translate": "few"
+    },
+    {
+      "text": "wichtig",
+      "id": "710488ec-af97-4020-ac21-70d573765bba",
+      "translate": "important"
+    },
+    {
+      "text": "wie",
+      "id": "5f2efe13-b65d-4cc7-834d-bd03b77c73cc",
+      "translate": "How"
+    },
+    {
+      "text": "wer",
+      "id": "44434aed-7f8d-4678-aef1-2dfcfc00559c",
+      "translate": "who"
+    },
+    {
+      "text": "wie",
+      "id": "a46640fa-b16d-4962-b0b6-77b173309d1f",
+      "translate": "How"
+    },
+    {
+      "text": "wie viel",
+      "id": "9766514e-7d8a-45b1-96b6-f626f50daf4d",
+      "translate": "how much"
+    },
+    {
+      "text": "wir",
+      "id": "616c02b9-c4df-4c23-9d70-c67c2ea0e8ad",
+      "translate": "we"
+    },
+    {
+      "text": "wo",
+      "id": "14d59455-f562-4674-918d-3630c5e75712",
+      "translate": "where"
+    },
+    {
+      "text": "woher",
+      "id": "10c13a52-de39-42c6-9a7b-23ff6d6da502",
+      "translate": "from where"
+    },
+    {
+      "text": "wohin",
+      "id": "f73c4146-421b-43ec-80a7-266f8973f076",
+      "translate": "where"
+    },
+    {
+      "text": "wunderbar",
+      "id": "d3e86bcb-4a3f-48dc-93ae-308342893684",
+      "translate": "wonderful"
+    },
+    {
+      "text": "zu",
+      "id": "72a2f217-0fc9-4ef1-96fe-fbf1f3550f5f",
+      "translate": "to"
+    },
+    {
+      "text": "zurück",
+      "id": "78909977-319b-49f7-940c-bd65092f4b66",
+      "translate": "back"
+    },
+    {
+      "text": "zusammen",
+      "id": "780eea52-c1da-4f4f-adf1-4bc5b27bcee7",
+      "translate": "together"
+    },
+    {
+      "text": "zusammen",
+      "id": "3bf96725-95f7-4f9d-b5a5-89d7e3eed8fb",
+      "translate": "together"
+    },
+    {
+      "text": "hinten",
+      "id": "1a2c4dc1-5258-4647-89e0-6934363779bd",
+      "translate": "rear"
+    }
+  ]
+}

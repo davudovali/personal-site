@@ -5,6 +5,8 @@ import { useState } from 'react'
 import RepitorController from './RepitorController'
 
 import A1Noun from './Lists/A1Noun.json'
+import A1Additions from './Lists/A1additions.json'
+import A1Verbs from './Lists/A1verbs.json'
 import Phrases from './Lists/Phrases.json'
 import { WordType } from './RepitorTypes'
 enum ScreenEnum {
@@ -13,13 +15,15 @@ enum ScreenEnum {
     TEXT = 'TEXT',
     PHRASES = 'PHRASES',
     VERB = 'verb',
+    ADDITIONS = 'additions',
 }
 const ScreenClearKeyMap = {
     [ScreenEnum.GENDER]: A1Noun.prefix,
     [ScreenEnum.MAIN]: '',
-    [ScreenEnum.VERB]: '',
-    [ScreenEnum.TEXT]: '',
+    [ScreenEnum.VERB]: A1Verbs.prefix,
+    [ScreenEnum.TEXT]: A1Noun.prefix,
     [ScreenEnum.PHRASES]: Phrases.prefix,
+    [ScreenEnum.ADDITIONS]: A1Additions.prefix,
 }
 export default function WordsRepitor() {
     const [screen, setScreen] = useState(ScreenEnum.MAIN)
@@ -54,7 +58,10 @@ export default function WordsRepitor() {
                         GENDER
                     </button>
                     <button onClick={() => setScreen(ScreenEnum.TEXT)}>
-                        TEXT
+                        NOUN
+                    </button>
+                    <button onClick={() => setScreen(ScreenEnum.ADDITIONS)}>
+                        ADDITIONS
                     </button>
                     <button onClick={() => setScreen(ScreenEnum.PHRASES)}>
                         PHRASES
@@ -65,6 +72,12 @@ export default function WordsRepitor() {
                 </div>
             )}
             {screen === ScreenEnum.GENDER && <Gender />}
+            {screen === ScreenEnum.ADDITIONS && (
+                <Text
+                    list={A1Additions.list as unknown as WordType[]}
+                    key={A1Additions.prefix}
+                />
+            )}
             {screen === ScreenEnum.TEXT && (
                 <Text
                     list={A1Noun.list as unknown as WordType[]}
@@ -75,6 +88,12 @@ export default function WordsRepitor() {
                 <Text
                     list={Phrases.list as unknown as WordType[]}
                     key={Phrases.prefix}
+                />
+            )}
+            {screen === ScreenEnum.VERB && (
+                <Text
+                    list={A1Verbs.list as unknown as WordType[]}
+                    key={A1Verbs.prefix}
                 />
             )}
         </main>

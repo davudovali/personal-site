@@ -94,7 +94,7 @@ export default function Text({ key, list }: TextRepitorInterface) {
                 <div
                     className={classNames(
                         styles.wordContainer,
-                        styles.longText
+                        isLongText && styles.longText
                     )}
                 >
                     <span>{text}</span>

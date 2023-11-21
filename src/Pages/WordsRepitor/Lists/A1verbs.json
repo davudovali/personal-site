@@ -1,0 +1,736 @@
+{
+  "name": "Verbs A1",
+  "prefix": "verbA1",
+  "list": [
+    {
+      "text": "abfahren",
+      "id": "ff0df1e0-b2cd-4084-89f7-792b0f87e685",
+      "translate": "depart"
+    },
+    {
+      "text": "abgeben",
+      "id": "ff60fd4a-4c37-4d1a-a049-2ced636ddd33",
+      "translate": "hand over"
+    },
+    {
+      "text": "abholen",
+      "id": "31361c18-390c-404d-a931-26060ddd6de7",
+      "translate": "pick up"
+    },
+    {
+      "text": "anbieten",
+      "id": "cff896b2-ee2b-4731-be91-b21738056155",
+      "translate": "offer"
+    },
+    {
+      "text": "anfangen",
+      "id": "ffc22007-b765-4a97-88bb-74788a4961ad",
+      "translate": "begin"
+    },
+    {
+      "text": "anklicken",
+      "id": "0388132c-e4f4-402b-878d-d9604dbc17c8",
+      "translate": "click"
+    },
+    {
+      "text": "ankommen",
+      "id": "26e1f926-e9ad-4aab-a93c-0fdeed9b8be7",
+      "translate": "arrive"
+    },
+    {
+      "text": "ankreuzen",
+      "id": "80ac4c4e-bd4e-4820-92d0-668141e93b1b",
+      "translate": "Mark with a cross"
+    },
+    {
+      "text": "anmachen",
+      "id": "3b14082c-4b56-4867-ab32-121dba09962c",
+      "translate": "to turn on"
+    },
+    {
+      "text": "anmelden",
+      "id": "aba8c28a-a6a1-4fa7-8044-39c5bea37fe3",
+      "translate": "register"
+    },
+    {
+      "text": "anrufen",
+      "id": "6914aff8-e817-499c-b9c2-fbd6362b5b8a",
+      "translate": "call"
+    },
+    {
+      "text": "antworten",
+      "id": "93a575d4-96b2-4b09-b61c-0b38378ffe74",
+      "translate": "answer"
+    },
+    {
+      "text": "anziehen",
+      "id": "0b6c2e88-4856-4651-942a-bd7aafc72841",
+      "translate": "put on "
+    },
+    {
+      "text": "arbeiten",
+      "id": "40b312a8-e762-4f64-814b-fa04a28af19b",
+      "translate": "work"
+    },
+    {
+      "text": "aufhören",
+      "id": "dcf2d8d9-e7b4-4d78-9c2a-694f3e55f42f",
+      "translate": "stop"
+    },
+    {
+      "text": "aufstehen",
+      "id": "c3655fc8-311b-4231-bb37-08af2ae2fc76",
+      "translate": "stand up"
+    },
+    {
+      "text": "ausfüllen",
+      "id": "e11d14fb-d4c4-4be2-bf4f-eae189599f8c",
+      "translate": "fill out"
+    },
+    {
+      "text": "ausmachen",
+      "id": "7c7c9d38-2ff1-4f6e-8201-8a3d67646552",
+      "translate": "turn off"
+    },
+    {
+      "text": "aussehen",
+      "id": "924bc05b-7a55-494e-a58e-dd30cb4472f2",
+      "translate": "look"
+    },
+    {
+      "text": "aussteigen",
+      "id": "fbf6ff17-05af-4eaa-937a-b8c2cd326da3",
+      "translate": "exit"
+    },
+    {
+      "text": "ausziehen",
+      "id": "a79cf44d-caa2-4db9-85e0-30f0153de344",
+      "translate": "get undressed"
+    },
+    {
+      "text": "baden",
+      "id": "56c2b6fe-fd76-4671-8645-9269071ed1f7",
+      "translate": "bathe"
+    },
+    {
+      "text": "bedeuten",
+      "id": "50178071-7f46-4a88-bb65-f656d3492678",
+      "translate": "mean"
+    },
+    {
+      "text": "beginnen",
+      "id": "3a995b0a-f006-4824-b7a3-d6e98bccaa6f",
+      "translate": "begin"
+    },
+    {
+      "text": "bekommen",
+      "id": "4a1afe62-243b-4928-af98-8045945dab97",
+      "translate": "receive"
+    },
+    {
+      "text": "benutzen",
+      "id": "91b2150d-504c-4aea-9408-aa52e197e7ac",
+      "translate": "use"
+    },
+    {
+      "text": "besichtigen",
+      "id": "d5b2be1a-a541-4ed1-b37f-e9513ea28142",
+      "translate": "view"
+    },
+    {
+      "text": "bestellen",
+      "id": "c7b789e9-faa3-4889-b57e-9dfe2cb78552",
+      "translate": "order"
+    },
+    {
+      "text": "besuchen",
+      "id": "e150b6fd-baf7-4a85-a726-76e618f17db4",
+      "translate": "visit"
+    },
+    {
+      "text": "bezahlen",
+      "id": "1cd5cd6e-55f8-49a1-b850-b6eb9d966cbc",
+      "translate": "pay"
+    },
+    {
+      "text": "bleiben",
+      "id": "8972780a-13be-429e-957b-09710ff3c0cb",
+      "translate": "remain"
+    },
+    {
+      "text": "brauchen",
+      "id": "2bb3796d-07cd-476a-b35e-f202db5cee5d",
+      "translate": "need"
+    },
+    {
+      "text": "bringen",
+      "id": "704d2d30-039b-4151-b8e8-5b207eb3f557",
+      "translate": "bring"
+    },
+    {
+      "text": "buchstabieren",
+      "id": "607966bb-53eb-441f-bb06-d488cc2b3248",
+      "translate": "spell"
+    },
+    {
+      "text": "daneben",
+      "id": "5f59faf1-a27e-49c5-b530-a94d05e5aaa5",
+      "translate": "Besides"
+    },
+    {
+      "text": "danken",
+      "id": "4b488996-3c5c-46b3-96dd-70a401439993",
+      "translate": "to thank"
+    },
+    {
+      "text": "drucken",
+      "id": "b171c580-d944-4994-ae2d-f749442c42ae",
+      "translate": "press"
+    },
+    {
+      "text": "drücken",
+      "id": "23a48de0-f557-4c54-92ec-357b7a3e0da7",
+      "translate": "press"
+    },
+    {
+      "text": "dürfen",
+      "id": "382894c5-d014-49e6-9d59-fb7d93b74ce4",
+      "translate": "may"
+    },
+    {
+      "text": "einkaufen",
+      "id": "909f16da-f035-4024-af56-cc06a8006fd5",
+      "translate": "shopping"
+    },
+    {
+      "text": "einladen",
+      "id": "009b345e-b1aa-44a0-aee0-a24efb14763f",
+      "translate": "invite"
+    },
+    {
+      "text": "einsteigen",
+      "id": "07709093-c175-43f6-af4d-34104721b3c7",
+      "translate": "get in"
+    },
+    {
+      "text": "empfehlen",
+      "id": "560d61c5-a990-4932-8111-6cc75ac79873",
+      "translate": "recommend"
+    },
+    {
+      "text": "enden",
+      "id": "640159aa-7b40-4e46-a9a3-cff779bf4c45",
+      "translate": "end up"
+    },
+    {
+      "text": "erklären",
+      "id": "8f5a5358-1bb4-438f-a6aa-68d676500fcd",
+      "translate": "explain"
+    },
+    {
+      "text": "erlauben",
+      "id": "34b39e26-6cec-42a8-9f3d-e7aef030b12f",
+      "translate": "allow"
+    },
+    {
+      "text": "erzählen",
+      "id": "d2d75911-331b-4b18-af51-9d39edbba12d",
+      "translate": "tell"
+    },
+    {
+      "text": "essen",
+      "id": "7b83d85c-344c-42a8-b952-6c5cdd99629c",
+      "translate": "eat"
+    },
+    {
+      "text": "fahren",
+      "id": "9e5748d4-780e-4b95-8a3b-eb2ad7954001",
+      "translate": "drive"
+    },
+    {
+      "text": "feiern",
+      "id": "e73247ba-2bce-4271-8119-d6dcf5bf635d",
+      "translate": "celebrate"
+    },
+    {
+      "text": "fehlen",
+      "id": "2421f60e-8de1-4f4f-a945-bc9ae8fecbf0",
+      "translate": "miss"
+    },
+    {
+      "text": "fernsehen",
+      "id": "3b6fce28-d368-403c-8c02-0dbada853559",
+      "translate": "TV"
+    },
+    {
+      "text": "finden",
+      "id": "68e48f50-150b-49a7-b8bc-38ecdf406201",
+      "translate": "find"
+    },
+    {
+      "text": "fliegen",
+      "id": "45de60dd-404b-413b-be57-3abede8f8ce6",
+      "translate": "fly"
+    },
+    {
+      "text": "abfliegen",
+      "id": "82d88b12-2e55-4437-bca3-3d076aeabd56",
+      "translate": "depart"
+    },
+    {
+      "text": "fragen",
+      "id": "4e9f0bfd-922a-4b5d-8b13-f7557a845608",
+      "translate": "questions"
+    },
+    {
+      "text": "frühstücken",
+      "id": "0f7635c5-4085-422d-bf62-422331438aa3",
+      "translate": "have breakfast"
+    },
+    {
+      "text": "geben",
+      "id": "417d7b7e-c054-40ea-9009-07e4e656810d",
+      "translate": "give"
+    },
+    {
+      "text": "geboren",
+      "id": "0cda0318-ce87-4810-9c62-dc7a1395aa0d",
+      "translate": "born"
+    },
+    {
+      "text": "gefallen",
+      "id": "7d98a112-16b5-45c7-94b6-f1c901d495f7",
+      "translate": "fallen"
+    },
+    {
+      "text": "gehen",
+      "id": "a1f4848e-d882-4281-981c-3f720e44a2f7",
+      "translate": "go"
+    },
+    {
+      "text": "gehen",
+      "id": "a7389f94-7e7e-4f42-8e57-29f1570c4cdc",
+      "translate": "go"
+    },
+    {
+      "text": "gestern",
+      "id": "57c20163-80bc-4e44-97ed-80595c1e3a39",
+      "translate": "yesterday"
+    },
+    {
+      "text": "gestorben",
+      "id": "acc03fff-7016-42a1-b31a-0aa0ddcda7b4",
+      "translate": "died"
+    },
+    {
+      "text": "gewinnen",
+      "id": "7e0830da-01be-419d-be39-e515000de02f",
+      "translate": "win"
+    },
+    {
+      "text": "glauben",
+      "id": "67292ffc-1410-4bb7-9610-ae6ca2e7e42c",
+      "translate": "believe"
+    },
+    {
+      "text": "gratulieren",
+      "id": "d00e9e1c-eee9-4727-bac7-c5c0196d5b0b",
+      "translate": "congratulate"
+    },
+    {
+      "text": "grillen",
+      "id": "539ad01e-05a3-419c-be6d-12110239a4b6",
+      "translate": "grilling"
+    },
+    {
+      "text": "haben",
+      "id": "9706e6a3-1a6f-4ffc-9e87-90fcdcec6670",
+      "translate": "have"
+    },
+    {
+      "text": "halten",
+      "id": "f1ed309a-0bf7-4652-821c-3d5361c6cf22",
+      "translate": "hold"
+    },
+    {
+      "text": "heiraten",
+      "id": "07800c8b-0237-47a6-9484-33e4b791fa17",
+      "translate": "marry"
+    },
+    {
+      "text": "heißen",
+      "id": "0d5232e7-a54d-4cf0-9a4e-f76b909f5ab2",
+      "translate": "be called"
+    },
+    {
+      "text": "helfen",
+      "id": "0f6213cc-8453-4558-818d-57611dcadb6a",
+      "translate": "help"
+    },
+    {
+      "text": "holen",
+      "id": "275c408d-2a6b-4276-86a6-817eb6ce78c0",
+      "translate": "fetch"
+    },
+    {
+      "text": "hören",
+      "id": "34a1fdb4-10a7-455f-a54c-3058d61714a8",
+      "translate": "hear"
+    },
+    {
+      "text": "kaufen",
+      "id": "8a90b1c9-e59b-4e8b-9a30-dd06dba56e69",
+      "translate": "buy"
+    },
+    {
+      "text": "kennen",
+      "id": "f65cffee-27c2-4c25-8cea-2c91f96e958c",
+      "translate": "know"
+    },
+    {
+      "text": "kochen",
+      "id": "096685b8-b6d6-40b1-b0e1-401b307e4998",
+      "translate": "cook"
+    },
+    {
+      "text": "können",
+      "id": "f5b8099a-1d2f-4a81-a9a7-7c800f73171c",
+      "translate": "can"
+    },
+    {
+      "text": "kommen",
+      "id": "ed488e66-c2b0-4aeb-b5af-862fe6beaf0f",
+      "translate": "come"
+    },
+    {
+      "text": "kosten",
+      "id": "35e30907-936d-4586-bdcb-f7e0fcd5dc8c",
+      "translate": "cost"
+    },
+    {
+      "text": "kriegen",
+      "id": "e70ba980-bed8-4731-9502-962a98926518",
+      "translate": "get"
+    },
+    {
+      "text": "lachen",
+      "id": "1ae58759-6c83-49bf-8a1b-86eda9a1ad11",
+      "translate": "laugh"
+    },
+    {
+      "text": "laufen",
+      "id": "c841dbbf-8371-41c3-bb1c-88e1c1a25289",
+      "translate": "run"
+    },
+    {
+      "text": "leben",
+      "id": "03c17c05-57c0-4a9a-a668-c06c66590817",
+      "translate": "life"
+    },
+    {
+      "text": "legen",
+      "id": "8abc4ec2-344c-48ad-aa22-6520c1992c5d",
+      "translate": "place"
+    },
+    {
+      "text": "lernen",
+      "id": "f3623531-746d-425c-8492-cb9cbdea3a47",
+      "translate": "learn"
+    },
+    {
+      "text": "lesen",
+      "id": "cddf130e-1e77-4b89-8e3d-2f58ebf33265",
+      "translate": "read"
+    },
+    {
+      "text": "lieben",
+      "id": "be924d01-f657-425e-92fa-e5161d124b10",
+      "translate": "love"
+    },
+    {
+      "text": "liegen",
+      "id": "d1baf1ca-fa9b-49bd-972d-99fd03396e40",
+      "translate": "lay"
+    },
+    {
+      "text": "machen",
+      "id": "ac34bcfb-439d-44d4-866f-bf7fa40378fb",
+      "translate": "make"
+    },
+    {
+      "text": "mieten",
+      "id": "938bb65e-6e20-41dc-8895-470790c58ade",
+      "translate": "rent"
+    },
+    {
+      "text": "mitbringen",
+      "id": "a0234884-7133-479f-b3a8-156143c839dc",
+      "translate": "bring along"
+    },
+    {
+      "text": "mitkommen",
+      "id": "093644c3-8cd0-4f40-a096-2c231176d9c5",
+      "translate": "come along"
+    },
+    {
+      "text": "mitmachen",
+      "id": "c880440a-f5cc-42df-96ca-52b6d5936d59",
+      "translate": "participate"
+    },
+    {
+      "text": "mitnehmen",
+      "id": "7072350e-78f4-49f5-a521-5aabdec9009c",
+      "translate": "take along"
+    },
+    {
+      "text": "möchten",
+      "id": "742c08b6-dd8c-4614-9dc7-13a7975ffca8",
+      "translate": "want"
+    },
+    {
+      "text": "mögen",
+      "id": "a539af14-76ea-4aa3-8e0d-d1de5c2a4701",
+      "translate": "like"
+    },
+    {
+      "text": "morgen",
+      "id": "2a5e09c9-f660-4313-8129-43866af4b418",
+      "translate": "morning"
+    },
+    {
+      "text": "müssen",
+      "id": "268c2625-2848-45c2-a480-6487bf1e09d1",
+      "translate": "must"
+    },
+    {
+      "text": "nehmen",
+      "id": "14fec898-fd28-4c10-9d59-3baf4883e748",
+      "translate": "take"
+    },
+    {
+      "text": "öffnen",
+      "id": "92b1bcd3-2526-462b-8e83-4e118bd06de5",
+      "translate": "open"
+    },
+    {
+      "text": "rauchen",
+      "id": "5266fdff-341f-480c-92aa-7e7d29106cd5",
+      "translate": "smoke"
+    },
+    {
+      "text": "regnen",
+      "id": "5c15035d-b887-4150-b18e-d512f9e9bb7b",
+      "translate": "rain"
+    },
+    {
+      "text": "reisen",
+      "id": "925d2cb8-bcc7-489e-9cae-478eec3d7fec",
+      "translate": "travel"
+    },
+    {
+      "text": "reparieren",
+      "id": "2383ed67-62b5-4b66-a8ae-507b5b21a041",
+      "translate": "repair"
+    },
+    {
+      "text": "riechen",
+      "id": "104e87f9-49e4-460a-b640-a134b79599ec",
+      "translate": "smell"
+    },
+    {
+      "text": "sagen",
+      "id": "d62cf3c5-ebaf-4384-9552-1ff5552b795e",
+      "translate": "say"
+    },
+    {
+      "text": "scheinen",
+      "id": "9bb88232-5e7d-4d11-9f8e-372ee82ea9b7",
+      "translate": "seem"
+    },
+    {
+      "text": "schicken",
+      "id": "49a28e47-0a69-4d83-a5e1-1a5b229c7534",
+      "translate": "send"
+    },
+    {
+      "text": "schlafen",
+      "id": "4004258d-385c-4898-bad5-ac56c72a41d8",
+      "translate": "sleep"
+    },
+    {
+      "text": "schließen",
+      "id": "5d246d8a-2dbb-4862-82a4-29de5c894781",
+      "translate": "close"
+    },
+    {
+      "text": "geschlossen",
+      "id": "53722ab4-f6a7-43ca-8f63-b3c696fe70e7",
+      "translate": "closed"
+    },
+    {
+      "text": "schmecken",
+      "id": "2e0fac5a-e7e6-4010-a110-4d9f65762737",
+      "translate": "taste good"
+    },
+    {
+      "text": "schreiben",
+      "id": "57e2c156-a443-418e-aa3c-8e7a34beb849",
+      "translate": "write"
+    },
+    {
+      "text": "schwimmen",
+      "id": "128d7329-e472-4542-88df-462ee68613ab",
+      "translate": "to swim"
+    },
+    {
+      "text": "sehen",
+      "id": "1175035d-10b4-4277-a096-068c095b3d4b",
+      "translate": "see"
+    },
+    {
+      "text": "sitzen",
+      "id": "5638310d-e294-44ab-b703-ca2b0efd5340",
+      "translate": "sit"
+    },
+    {
+      "text": "sollen",
+      "id": "8d1cc1b9-a100-428f-80cd-d6423ef8009f",
+      "translate": "should"
+    },
+    {
+      "text": "spielen",
+      "id": "77295bd0-cb5f-4cf4-b68d-36400bb12a25",
+      "translate": "play"
+    },
+    {
+      "text": "sprechen",
+      "id": "588c005e-801c-4633-be7f-2449da0994e1",
+      "translate": "speak"
+    },
+    {
+      "text": "stehen",
+      "id": "1efa91f0-639e-4846-ae8c-97268ac6829b",
+      "translate": "stand"
+    },
+    {
+      "text": "stellen",
+      "id": "edd476d9-3b94-4a09-acd6-89c03553c353",
+      "translate": "place"
+    },
+    {
+      "text": "studieren",
+      "id": "3ccceb7f-351d-45cf-9d8d-29a97d0e2cd1",
+      "translate": "study"
+    },
+    {
+      "text": "suchen",
+      "id": "c8eab3bf-77cf-4876-a21c-7a167d3b7944",
+      "translate": "seek"
+    },
+    {
+      "text": "tanzen",
+      "id": "8b33e8d9-d025-44d0-8d13-43fe94a674fb",
+      "translate": "dance"
+    },
+    {
+      "text": "telefonieren",
+      "id": "25e81d40-dfe1-428d-810e-3ff7fcf99410",
+      "translate": "make a phone call"
+    },
+    {
+      "text": "treffen",
+      "id": "dc169a38-b7c2-4900-9dd3-a470c16a3ad2",
+      "translate": "meet"
+    },
+    {
+      "text": "trinken",
+      "id": "1c242b00-f4d7-490b-84d9-58740dd2d647",
+      "translate": "drink"
+    },
+    {
+      "text": "übernachten",
+      "id": "4bc6b663-3440-4aae-ba14-4d0061c2cc1d",
+      "translate": "stay overnight"
+    },
+    {
+      "text": "überweisen",
+      "id": "b224e518-66fa-4369-8fe5-32105716107a",
+      "translate": "transfer"
+    },
+    {
+      "text": "umziehen",
+      "id": "a54d1f3e-bab8-4ef9-9858-8ecdd5ac6558",
+      "translate": "move"
+    },
+    {
+      "text": "unterschreiben",
+      "id": "1a34b5fd-5894-4fd3-a549-0f2ebfbbaf73",
+      "translate": "sign"
+    },
+    {
+      "text": "verboten",
+      "id": "ecf90d61-d6aa-4ffd-a9c1-7d376424edbb",
+      "translate": "forbidden"
+    },
+    {
+      "text": "verkaufen",
+      "id": "dd5e9c73-704b-4d7c-a382-8c76fc396d25",
+      "translate": "sell"
+    },
+    {
+      "text": "vermieten",
+      "id": "bcd166ea-72ca-4c3c-a316-7c908c675595",
+      "translate": "rent"
+    },
+    {
+      "text": "wandern",
+      "id": "173089e7-d417-4418-8f85-d6fe02d58c78",
+      "translate": "hike"
+    },
+    {
+      "text": "warten",
+      "id": "edd14617-0286-4727-ad9c-3b8d445f92cb",
+      "translate": "wait"
+    },
+    {
+      "text": "waschen",
+      "id": "fc6a67f6-4082-4ec4-85b6-138a3f811e48",
+      "translate": "wash"
+    },
+    {
+      "text": "werden",
+      "id": "b7e49d2f-6124-44f8-8ea8-c7ef27d8a8f8",
+      "translate": "become"
+    },
+    {
+      "text": "wiederholen",
+      "id": "2e0d9d3c-403d-47e6-b509-cba9ba02da33",
+      "translate": "repeat"
+    },
+    {
+      "text": "willkommen",
+      "id": "a78a84d1-68ca-4524-b7ac-a21262fd2dd3",
+      "translate": "welcome"
+    },
+    {
+      "text": "wissen",
+      "id": "8a0fd125-ceee-45d2-a4fd-960e8ebea755",
+      "translate": "knowledge"
+    },
+    {
+      "text": "wohnen",
+      "id": "edfeb452-f6ea-499a-a24b-641aad06de79",
+      "translate": "reside"
+    },
+    {
+      "text": "zahlen",
+      "id": "0bb67028-7df8-4804-9dc9-b0e0cd05f6c3",
+      "translate": "pay"
+    },
+    {
+      "text": "zufrieden",
+      "id": "3ab34a97-abbd-415e-b103-bd8ca8011ee0",
+      "translate": "satisfied"
+    }
+  ]
+}
