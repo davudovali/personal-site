@@ -75,25 +75,25 @@ export default function WordsRepitor() {
             {screen === ScreenEnum.ADDITIONS && (
                 <Text
                     list={A1Additions.list as unknown as WordType[]}
-                    key={A1Additions.prefix}
+                    storageKey={A1Additions.prefix}
                 />
             )}
             {screen === ScreenEnum.TEXT && (
                 <Text
                     list={A1Noun.list as unknown as WordType[]}
-                    key={A1Noun.prefix}
+                    storageKey={A1Noun.prefix}
                 />
             )}
             {screen === ScreenEnum.PHRASES && (
                 <Text
                     list={Phrases.list as unknown as WordType[]}
-                    key={Phrases.prefix}
+                    storageKey={Phrases.prefix}
                 />
             )}
             {screen === ScreenEnum.VERB && (
                 <Text
                     list={A1Verbs.list as unknown as WordType[]}
-                    key={A1Verbs.prefix}
+                    storageKey={A1Verbs.prefix}
                 />
             )}
         </main>

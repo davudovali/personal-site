@@ -9,14 +9,14 @@ function getFullText(info: WordType) {
 }
 
 interface TextRepitorInterface {
-    key: string
+    storageKey: string
     list: WordType[]
 }
 
-export default function Text({ key, list }: TextRepitorInterface) {
+export default function Text({ storageKey, list }: TextRepitorInterface) {
     const inputRef = useRef<HTMLInputElement | null>(null)
     const [repeatorController] = useState(() => {
-        const controller = new RepitorController(key, list, 10)
+        const controller = new RepitorController(storageKey, list, 10)
         controller.getInitialList()
         controller.getNextWord()
         return controller
